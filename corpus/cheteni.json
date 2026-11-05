@@ -1,0 +1,2207 @@
+[
+ {
+  "date": "2026-10-20",
+  "role": "speaker",
+  "type": "Video",
+  "title": "The Future of Work Needs the Human Advantage | Dr. Freedom Cheteni-Mandela",
+  "venue": "National Academy of Leadership Development",
+  "url": "https://www.youtube.com/watch?v=-HgXz_NKIS8",
+  "status": "opened",
+  "summary": "A masterclass on education and work as AI makes intelligence abundant and judgment, trust and purpose scarce. Covers 'pick a mission, not a major' and the Designership model of scholarship, internship, designership and entrepreneurship.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "AI",
+   "future of work",
+   "Designership"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0119"
+ },
+ {
+  "date": "2026-06-20",
+  "role": "speaker",
+  "type": "Video",
+  "title": "From Virtual Reality to Spatial Intelligence w/ Dr. Freedom Cheteni",
+  "venue": "Global Academy of Real World Learning",
+  "url": "https://www.youtube.com/watch?v=s37cRuLkURs",
+  "status": "opened",
+  "summary": "A youth sustainability session on using spatial intelligence, mapping and AI in cocoa farming.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "AI",
+   "VR",
+   "spatial intelligence"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0118"
+ },
+ {
+  "date": "2026-06-18",
+  "role": "speaker",
+  "type": "Video",
+  "title": "AI, VR, and the Future of Human Connection | Dr. Freedom Cheteni-Mandela | Spool S2 EP4",
+  "venue": "Spool",
+  "url": "https://www.youtube.com/watch?v=qAupo2bZSL8",
+  "status": "opened",
+  "summary": "An interview on growing up in Zimbabwe, and on AI, VR and the future of education. Cheteni argues that compassionate AI can give people more time to connect.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "AI",
+   "VR",
+   "human connection"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0117"
+ },
+ {
+  "date": "2026-05-02",
+  "role": "code",
+  "type": "Code",
+  "title": "iteachxr",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/iteachxr",
+  "status": "listed",
+  "summary": "iTeachXR, an AI-first learning management system for K-12 and higher education.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0116"
+ },
+ {
+  "date": "2026-04-26",
+  "role": "code",
+  "type": "Code",
+  "title": "luxai1",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/luxai1",
+  "status": "listed",
+  "summary": "LuxAI agent at sof.ai.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0115"
+ },
+ {
+  "date": "2026-04-23",
+  "role": "code",
+  "type": "Code",
+  "title": "sof-ai-repo",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/sof-ai-repo",
+  "status": "listed",
+  "summary": "The sof.ai site.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0114"
+ },
+ {
+  "date": "2025-03-08",
+  "role": "code",
+  "type": "Code",
+  "title": "web-vrschool",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/web-vrschool",
+  "status": "listed",
+  "summary": "The VR School WASC accreditation portal.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0113"
+ },
+ {
+  "date": "2025-02-23",
+  "role": "code",
+  "type": "Code",
+  "title": "thevrschool-website",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/thevrschool-website",
+  "status": "listed",
+  "summary": "The VR School website.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0112"
+ },
+ {
+  "date": "2025-01-27",
+  "role": "code",
+  "type": "Code",
+  "title": "JustAice",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/JustAice",
+  "status": "listed",
+  "summary": "Justices of AI Courts.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0111"
+ },
+ {
+  "date": "2025-01-14",
+  "role": "code",
+  "type": "Code",
+  "title": "Transcripts",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/Transcripts",
+  "status": "listed",
+  "summary": "A Next.js app for The VR School student transcripts.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0110"
+ },
+ {
+  "date": "2024-12-16",
+  "role": "code",
+  "type": "Code",
+  "title": "sofai",
+  "venue": "GitHub (DearMrFree)",
+  "url": "https://github.com/DearMrFree/sofai",
+  "status": "listed",
+  "summary": "School of Ai.",
+  "note": "Public repository; contents not reviewed.",
+  "topics": [
+   "code"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0109"
+ },
+ {
+  "date": "2024-01-17",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Steve Grubbs and Dr. Freedom Cheteni, Nelson Mandela's Grandson and Stanford's VR School Director",
+  "venue": "VictoryXR",
+  "url": "https://www.youtube.com/watch?v=2hCUPwh7djM",
+  "status": "opened",
+  "summary": "The VictoryXR Show episode. Its show notes cover VR in schools and AI teachers.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "VR",
+   "AI"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0108"
+ },
+ {
+  "date": "2023-11-13",
+  "role": "author",
+  "type": "Article",
+  "title": "Pioneering the Future: The Research University's AI Institutes Lead the Way in Artificial Intelligence Innovation",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/pioneering-future-research-universitys-ai-institutes-lead-cheteni-ufd2c",
+  "status": "opened",
+  "summary": "A promotional account of The Research University's AI institutes: research, teaching, industry partnerships and ethics.",
+  "note": "",
+  "topics": [
+   "AI",
+   "The Research University"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0107"
+ },
+ {
+  "date": "2023-11-09",
+  "role": "author",
+  "type": "Article",
+  "title": "Embracing the AI Revolution in Education: A Movement Thinking Approach",
+  "venue": "K12 Digest",
+  "url": "https://www.k12digest.com/embracing-the-ai-revolution-in-education-a-movement-thinking-approach/",
+  "status": "opened",
+  "summary": "Presents Movement Thinking as a fluid, inclusive and continually evolving approach to teaching, and applies it to AI in schools. The author bio credits Cheteni with pioneering the concept.",
+  "note": "Byline: Dr. Freedom Cheteni, Superintendent of Schools, The VR School, and Editor in Chief, Superintendents Journal. Muck Rack also lists a duplicate draft URL.",
+  "topics": [
+   "Movement Thinking",
+   "AI",
+   "education"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0106"
+ },
+ {
+  "date": "2023",
+  "role": "founder",
+  "type": "Project",
+  "title": "The Research University",
+  "venue": "research.university",
+  "url": "https://research.university/",
+  "status": "listed",
+  "summary": "A site for research institutes, courses and AI programs. Most archived posts are reposted articles under an admin account.",
+  "note": "Individual posts are not listed here because their authors are not named.",
+  "topics": [
+   "AI",
+   "research"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0105"
+ },
+ {
+  "date": "2021-11-22",
+  "role": "subject",
+  "type": "News",
+  "title": "SportsEdTV Appoints Freedom Cheteni to Advisory Board",
+  "venue": "SportsEdTV",
+  "url": "https://sportsedtv.com/blog/sportsedtv-appoints-freedom-cheteni-to-advisory-board/",
+  "status": "opened",
+  "summary": "Announces the appointment. It credits Cheteni with coining Movement Thinking and Designership, and quotes the CEO calling Cheteni one of the creators of the Moonshots in Education movement.",
+  "note": "A company announcement; its biography was not checked against other sources.",
+  "topics": [
+   "Movement Thinking",
+   "Designership",
+   "moonshots"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0104"
+ },
+ {
+  "date": "2021-08-21",
+  "role": "author",
+  "type": "Article",
+  "title": "The future is not knowable, but it is \"inventable\" and discoverable: InventXR",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/future-knowable-inventable-discoverable-inventxr-freedom-cheteni",
+  "status": "opened",
+  "summary": "Argues that data integrity and privacy are central to networked education, and presents InventXR's iStudyXR platform, EduCoin and its cryptography research.",
+  "note": "",
+  "topics": [
+   "InventXR",
+   "EduCoin",
+   "privacy"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0103"
+ },
+ {
+  "date": "2021-08-13",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Idea Validation | Moonshot Jr's ELDP Session by Freedom Cheteni",
+  "venue": "Moonpreneur",
+  "url": "https://www.youtube.com/watch?v=J4UlqZh6XMk",
+  "status": "opened",
+  "summary": "A session for young entrepreneurs on testing ideas through experiments.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "entrepreneurship"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0102"
+ },
+ {
+  "date": "2021-06-11",
+  "role": "author",
+  "type": "Article",
+  "title": "Controversial Cryptocurrency, EduCoin, Baffles Students",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/controversial-cryptocurrency-educoin-baffles-students-freedom-cheteni",
+  "status": "listed",
+  "summary": "On the EduCoin learning token and how students reacted to it.",
+  "note": "Title and date from the LinkedIn article list.",
+  "topics": [
+   "EduCoin"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0101"
+ },
+ {
+  "date": "2021-04-24",
+  "role": "author",
+  "type": "Article",
+  "title": "The School Principal: Educating Girls Means Stopping Rape",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/school-principal-educating-girls-means-stopping-rape-freedom-cheteni",
+  "status": "listed",
+  "summary": "On girls' education and sexual violence.",
+  "note": "Title and date from the LinkedIn article list.",
+  "topics": [
+   "girls' education"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0100"
+ },
+ {
+  "date": "2021-03-01",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Accelerating into the future: exponential technology: Freedom Cheteni | Moonshot Jr",
+  "venue": "Moonpreneur",
+  "url": "https://www.youtube.com/watch?v=4qsP6IWqxxY",
+  "status": "opened",
+  "summary": "A session for young people on exponential technology.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "technology"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0099"
+ },
+ {
+  "date": "2021-02-11",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Leadership By Freedom Cheteni | MoonshotJr",
+  "venue": "Moonpreneur",
+  "url": "https://www.youtube.com/watch?v=kiahS80XiNo",
+  "status": "opened",
+  "summary": "A session for young entrepreneurs on leadership.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "leadership"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0098"
+ },
+ {
+  "date": "2021-01-04",
+  "role": "producer",
+  "type": "Video",
+  "title": "Insight 360 TV",
+  "venue": "Freedom Cheteni",
+  "url": "https://www.youtube.com/watch?v=bKXw-Qacl3s",
+  "status": "opened",
+  "summary": "An Insight 360 TV segment whose description introduces Cheteni's work on future-ready learning models.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0097"
+ },
+ {
+  "date": "2020-12-20",
+  "role": "producer",
+  "type": "Video",
+  "title": "TRUe News: CNN Global Town hall on COVID",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=BMytgYCrMsk",
+  "status": "opened",
+  "summary": "An upload of CNN's Covid-19 town hall.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Covid-19"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0096"
+ },
+ {
+  "date": "2020-06-04",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Voices of Educators Ep. 4 - Freedom Cheteni",
+  "venue": "Administrator UP Academy",
+  "url": "https://www.youtube.com/watch?v=FD7USRy4cdc",
+  "status": "opened",
+  "summary": "On acknowledging injustice, ending othering and a compassion revolution in education.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "equity",
+   "compassion"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0095"
+ },
+ {
+  "date": "2020-03-13",
+  "role": "producer",
+  "type": "Video",
+  "title": "Conversation with Woj on COVID-19",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=1w_pvBqMxgc",
+  "status": "opened",
+  "summary": "A livestreamed conversation with Esther Wojcicki on Covid-19 and its impact on education.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Covid-19",
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0094"
+ },
+ {
+  "date": "2020-03-11",
+  "role": "author",
+  "type": "Article",
+  "title": "Letter from a Friend Living in Italy during Covid-19 lockdown",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/letter-from-friend-living-italy-during-covid-19-lockdown-cheteni",
+  "status": "listed",
+  "summary": "Shares a letter from a friend in Italy in the first weeks of the Covid-19 lockdown.",
+  "note": "Title and date from the LinkedIn article list.",
+  "topics": [
+   "Covid-19"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0093"
+ },
+ {
+  "date": "2020-03-02",
+  "role": "author",
+  "type": "Article",
+  "title": "P-Tech at St. Vrain School District Recognized at World's Most Senior Cybersecurity Conference, RSA20",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/p-tech-st-vrain-school-district-recognized-worlds-most-cheteni",
+  "status": "listed",
+  "summary": "On recognition for a Colorado district's P-Tech program at the RSA cybersecurity conference.",
+  "note": "Title and date from the LinkedIn article list.",
+  "topics": [
+   "cybersecurity"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0092"
+ },
+ {
+  "date": "2020-02-27",
+  "role": "author",
+  "type": "Article",
+  "title": "National Cyber-Moonshot Grand Challenge Announced at RSA2020",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/cyber-moonshot-grand-challenge-announced-rsa2020-freedom-cheteni",
+  "status": "listed",
+  "summary": "On a cybersecurity moonshot challenge announced at RSA 2020.",
+  "note": "Title and date from the LinkedIn article list.",
+  "topics": [
+   "cybersecurity",
+   "moonshots"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0091"
+ },
+ {
+  "date": "2019-09-27",
+  "role": "author",
+  "type": "Article",
+  "title": "World’s First Virtual Reality School: The Research University(X)",
+  "venue": "Medium (@inventXR)",
+  "url": "https://medium.com/@inventXR/worlds-first-virtual-reality-school-th-acf1d1c4d3ad",
+  "status": "opened",
+  "summary": "Makes the case for an online virtual reality high school as students grow equally at home online and in person.",
+  "note": "",
+  "topics": [
+   "VR",
+   "The Research University"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0090"
+ },
+ {
+  "date": "2019-09-27",
+  "role": "author",
+  "type": "Article",
+  "title": "World's First Virtual Reality School",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/worlds-first-virtual-reality-school-freedom-cheteni",
+  "status": "listed",
+  "summary": "Shares its title and date with the Medium post on The Research University(X) virtual reality school.",
+  "note": "Title and date from the LinkedIn article list.",
+  "topics": [
+   "VR",
+   "The VR School"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0089"
+ },
+ {
+  "date": "2019-09-12",
+  "role": "repost",
+  "type": "Article",
+  "title": "MIT President Rafael Reif: Letter on Accepting Jeffrey Epstein's Money",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/mit-president-rafael-reif-letter-accepting-jeffrey-epsteins-cheteni",
+  "status": "opened",
+  "summary": "Shares MIT's president's letter on gifts from Jeffrey Epstein.",
+  "note": "The text is MIT's letter, not Cheteni's writing.",
+  "topics": [
+   "ethics"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0088"
+ },
+ {
+  "date": "2019-04-07",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Freedom Cheteni - Teachers Make a Difference \"Sorrow\" and Esther Wojcicki",
+  "venue": "The Brainwaves Video Anthology",
+  "url": "https://www.youtube.com/watch?v=aVO5OHuy34Q",
+  "status": "opened",
+  "summary": "A short Brainwaves anthology piece pairing Cheteni with Esther Wojcicki on teachers.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "teachers"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0087"
+ },
+ {
+  "date": "2019-03-19",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Freedom Cheteni - Movement Thinking",
+  "venue": "The Brainwaves Video Anthology",
+  "url": "https://www.youtube.com/watch?v=Pabi-N3zKt8",
+  "status": "opened",
+  "summary": "A Brainwaves anthology piece titled Movement Thinking. It is the earliest video found that names the concept.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Movement Thinking"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0086"
+ },
+ {
+  "date": "2019-03-18",
+  "role": "subject",
+  "type": "Video",
+  "title": "Obediant Tshabalala - Teachers Make a Difference - Freedom Cheteni",
+  "venue": "The Brainwaves Video Anthology",
+  "url": "https://www.youtube.com/watch?v=FQC0R_-MlDw",
+  "status": "opened",
+  "summary": "A South African engineer names Cheteni as a teacher who made a difference.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "teachers"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0085"
+ },
+ {
+  "date": "2019-03-18",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Freedom Cheteni - Born Free",
+  "venue": "The Brainwaves Video Anthology",
+  "url": "https://www.youtube.com/watch?v=BAveq1DuJz4",
+  "status": "opened",
+  "summary": "A Brainwaves anthology piece titled Born Free.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "biography"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0084"
+ },
+ {
+  "date": "2019-03-18",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Freedom Cheteni \"Theme for English B\" by Langston Hughes",
+  "venue": "The Brainwaves Video Anthology",
+  "url": "https://www.youtube.com/watch?v=YqyGU0H2pro",
+  "status": "opened",
+  "summary": "Cheteni reads Langston Hughes's poem.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "poetry"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0083"
+ },
+ {
+  "date": "2018-11-19",
+  "role": "author",
+  "type": "Article",
+  "title": "Nelson Mandela’s legacy: Ponelopele Oracle Secondary School a Moonshot",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/nelson-mandelas-legacy-ponelopele-oracle-secondary-school-a-moonshot-c3178b5acb6",
+  "status": "opened",
+  "summary": "On the Oracle-backed school in Tembisa, South Africa that Nelson Mandela asked for, framed as a moonshot.",
+  "note": "",
+  "topics": [
+   "moonshots",
+   "Africa"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0082"
+ },
+ {
+  "date": "2018-11-05",
+  "role": "author",
+  "type": "Article",
+  "title": "The Woj Way: The moment that defined the Breakthrough Prize was Anne Wojcicki",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-the-moment-that-defined-the-breakthrough-prize-was-anne-wojcicki-1664916d4596",
+  "status": "opened",
+  "summary": "Links Anne Wojcicki's moment at the 2018 Breakthrough Prize to the family's values.",
+  "note": "Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0081"
+ },
+ {
+  "date": "2018-11-02",
+  "role": "author",
+  "type": "Article",
+  "title": "Zimbabwe schools embrace design thinking: Godigital rolls out the world’s first blockchain enabled e-learning in schools",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/zimbabwe-schools-embrace-design-thinking-godigital-rolls-out-the-worlds-first-blockchain-enabled-8475200e38ba",
+  "status": "opened",
+  "summary": "Reports a Moonshots fellow's rollout of the iStudy e-learning platform in Zimbabwean schools.",
+  "note": "",
+  "topics": [
+   "Zimbabwe",
+   "iStudy",
+   "design thinking"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0080"
+ },
+ {
+  "date": "2018-11",
+  "role": "editor",
+  "type": "Journal",
+  "title": "The School Superintendents' Journal",
+  "venue": "Editor in Chief",
+  "url": "https://www.linkedin.com/in/freedom-cheteni-2177a8177/",
+  "status": "listed",
+  "summary": "Cheteni's LinkedIn profile lists the editor in chief role from November 2018.",
+  "note": "No masthead or journal site was found to confirm it.",
+  "topics": [],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0079"
+ },
+ {
+  "date": "2018-10-31",
+  "role": "producer",
+  "type": "Video",
+  "title": "Godigital: istudy walkthrough",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=RclNKxC0y1Y",
+  "status": "opened",
+  "summary": "A walkthrough of the iStudy platform for the Go Digital training program.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "iStudy"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0078"
+ },
+ {
+  "date": "2018-10-30",
+  "role": "author",
+  "type": "Article",
+  "title": "Moonshots founder Dr. Woj on the Future of Work and making school work in the 4iR",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/moonshots-founder-dr-woj-on-the-future-of-work-and-making-school-work-in-the-4ir-d65c2683b6a5",
+  "status": "opened",
+  "summary": "Applies Esther Wojcicki's TRICK values to schooling for the fourth industrial revolution.",
+  "note": "",
+  "topics": [
+   "Woj Way",
+   "future of work"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0077"
+ },
+ {
+  "date": "2018-10-27",
+  "role": "repost",
+  "type": "Repost",
+  "title": "Physicians battle pediatric diseases of ear, nose, throat in Zimbabwe",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/physicians-battle-pediatric-diseases-of-ear-nose-throat-in-zimbabwe-c24c7c353491",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Stanford Medicine, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Zimbabwe",
+   "health"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0076"
+ },
+ {
+  "date": "2018-10-27",
+  "role": "author",
+  "type": "Article",
+  "title": "Moonshots in Education research team concludes the Biggest gap in the Future of Work is Soft Skills not Code",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/moonshots-in-education-research-team-concludes-the-biggest-gap-in-the-future-of-work-is-soft-79a49a1afc4b",
+  "status": "opened",
+  "summary": "Argues, starting from a remark by Esther Wojcicki, that soft skills matter more than coding for future work.",
+  "note": "",
+  "topics": [
+   "future of work",
+   "soft skills",
+   "AI"
+  ],
+  "woj": 1,
+  "ai": 1,
+  "id": "FC-0075"
+ },
+ {
+  "date": "2018-10-27",
+  "role": "repost",
+  "type": "Repost",
+  "title": "Lacoste Just Appointed Their First-Ever Female Creative Director",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/lacoste-just-appointed-their-first-ever-female-creative-director-4e05944c9952",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Teen Vogue, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "fashion"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0074"
+ },
+ {
+  "date": "2018-10-20",
+  "role": "author",
+  "type": "Article",
+  "title": "Students “choose” moonshot teachers: Meeting the right teacher serves as its own reward, Duke finds.",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/social-robots-like-jibo-and-ai-cannot-replace-moonshot-teachers-duke-finds-a-neuroscience-basis-fdedc6890dba",
+  "status": "opened",
+  "summary": "Uses a Duke neuroscience finding to argue that social robots and AI cannot replace a well-matched teacher.",
+  "note": "The web address carries an earlier title about Jibo and AI.",
+  "topics": [
+   "AI",
+   "robots",
+   "teaching",
+   "neuroscience"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0073"
+ },
+ {
+  "date": "2018-10-19",
+  "role": "author",
+  "type": "Article",
+  "title": "The Future of Education: Moonshot in Education Silicon Valley School wins the WISE Prize for the World’s first Autonomous College",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-future-of-education-moonshot-in-education-silicon-valley-school-wins-the-wise-prize-for-the-c0c2ea044d6f",
+  "status": "opened",
+  "summary": "On 42 Silicon Valley's WISE award, presented as a win for the Moonshots framework.",
+  "note": "",
+  "topics": [
+   "42",
+   "moonshots"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0072"
+ },
+ {
+  "date": "2018-10-17",
+  "role": "repost",
+  "type": "Repost",
+  "title": "Winners of the 2019 Breakthrough Prize in Life Sciences, Fundamental Physics and Mathematics Announced",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/winners-of-the-2019-breakthrough-prize-in-life-sciences-fundamental-physics-and-mathematics-e30e62d40ba4",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at breakthroughprize.org, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "science"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0071"
+ },
+ {
+  "date": "2018-10-15",
+  "role": "repost",
+  "type": "Repost",
+  "title": "Michael Keller named vice provost for teaching and learning; Sarah Church to serve as senior associate vice provost",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/michael-keller-named-vice-provost-for-teaching-and-learning-sarah-church-to-serve-as-senior-ded24a151fe7",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Stanford News on October 15, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Stanford"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0070"
+ },
+ {
+  "date": "2018-10-14",
+  "role": "author",
+  "type": "Article",
+  "title": "Moonshots Innovation Diploma| Silicon Valley Summer Session",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/moonshots-innovation-diploma-silicon-valley-summer-session-82b9060fd436",
+  "status": "opened",
+  "summary": "Describes a Silicon Valley summer program tied to the Moonshots Innovation Diploma.",
+  "note": "",
+  "topics": [
+   "moonshots",
+   "diploma"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0069"
+ },
+ {
+  "date": "2018-10-10",
+  "role": "producer",
+  "type": "Video",
+  "title": "Stanford University President and Chairman of the Board of Trustees on Mooshots in Education TRICK",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=yFmVLX1_d-4",
+  "status": "opened",
+  "summary": "John Hennessy on inequality in K-12 schools, with Esther Wojcicki's TRICK values and the Moonshot Mastery Transcript.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "TRICK",
+   "assessment"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0068"
+ },
+ {
+  "date": "2018-10-09",
+  "role": "author",
+  "type": "Article",
+  "title": "Colleges, Coxinhas and Cookies: Moonshot Artur Fellow on Cookie Cutters",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/colleges-coxinhas-and-cookies-moonshot-artur-fellow-on-cookie-cutters-d0ea29d231eb",
+  "status": "opened",
+  "summary": "Profiles a Brazilian Moonshot fellow in the Design as Discovery course at Stanford and argues against one-size-fits-all college.",
+  "note": "",
+  "topics": [
+   "moonshots",
+   "Brazil",
+   "Stanford"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0067"
+ },
+ {
+  "date": "2018-10-05",
+  "role": "repost",
+  "type": "Repost",
+  "title": "Steve Jobs’ daughter talks writing, relationship with father with Esther Wojcicki",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/steve-jobs-daughter-talks-writing-relationship-with-father-with-esther-wojcicki-6387091fc5c6",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at The Paly Voice on October 5, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Lisa Brennan-Jobs"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0066"
+ },
+ {
+  "date": "2018-10-04",
+  "role": "producer",
+  "type": "Video",
+  "title": "Lisa Brennan-Jobs describes The Woj Way",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=6r7q_KJmLNs",
+  "status": "opened",
+  "summary": "Brennan-Jobs recalls how Esther Wojcicki's class embodied the five TRICK values.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0065"
+ },
+ {
+  "date": "2018-10-04",
+  "role": "author",
+  "type": "Article",
+  "title": "Lisa Brennan-Jobs Memoir: Her conversation with her mentor Esther Wojcicki (Part 1)",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/lisa-brennan-jobs-memoir-her-conversation-with-her-mentor-esther-wojcicki-par-c4639d8cbfbd",
+  "status": "opened",
+  "summary": "Brennan-Jobs describes the Woj Way and being in Esther Wojcicki's class.",
+  "note": "Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0064"
+ },
+ {
+  "date": "2018-10-03",
+  "role": "author",
+  "type": "Article",
+  "title": "The WASC incubator accreditation process a Moonshot in Education",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-wasc-incubator-accreditation-process-a-moonshot-in-education-32ec7fbbaa5b",
+  "status": "opened",
+  "summary": "On how schools such as 42 and Make School could seek WASC accreditation.",
+  "note": "Medium says it first appeared at makeschool.com. Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "accreditation",
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0063"
+ },
+ {
+  "date": "2018-10-01",
+  "role": "producer",
+  "type": "Video",
+  "title": "Virtual Reality Moonshot School",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=IofPB41li3A",
+  "status": "opened",
+  "summary": "Two Moonshot fellows on the virtual reality school they built in a design lab.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "VR"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0062"
+ },
+ {
+  "date": "2018-09-28",
+  "role": "author",
+  "type": "Article",
+  "title": "The Woj Way: Singapore moving away from grades and towards mastery",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-singapore-moving-away-from-grades-and-towards-mastery-c6601b6ac3d5",
+  "status": "opened",
+  "summary": "Ties Singapore's move away from exam rankings to a Moonshots mastery-transcript team.",
+  "note": "Medium says it first appeared at Yahoo News Singapore; it adds commentary to that report.",
+  "topics": [
+   "mastery",
+   "assessment",
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0061"
+ },
+ {
+  "date": "2018-09-27",
+  "role": "author",
+  "type": "Article",
+  "title": "Woj celebrates Googles 20th Birthday",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/woj-celebrates-googles-20th-birthday-73a0ed427afe",
+  "status": "opened",
+  "summary": "Marks Google's 20th birthday through Esther Wojcicki's ties to it, and her visit to a Latino college prep school.",
+  "note": "Medium says it first appeared at CNBC; the post adds its own material.",
+  "topics": [
+   "Google",
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0060"
+ },
+ {
+  "date": "2018-09-26",
+  "role": "author",
+  "type": "Article",
+  "title": "The Woj Way: Youth and the Future of Learning (From STEAM to STEAMM)",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/woj-way-youth-future-learning-from-steam-steamm-cheteni-designership",
+  "status": "opened",
+  "summary": "Argues from Esther Wojcicki's ideas that media belongs alongside STEAM, and that employers should measure TRICK skills.",
+  "note": "Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way",
+   "STEAMM"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0059"
+ },
+ {
+  "date": "2018-09-26",
+  "role": "author",
+  "type": "Article",
+  "title": "The Woj Way: VR media in Journalism and the case for STEAMM vs STEAM",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-vr-in-journalism-80dd2006fadf",
+  "status": "opened",
+  "summary": "Describes a virtual reality K-12 lab Cheteni designed at Design Tech High School and argues for media in STEAM.",
+  "note": "Medium says part of it first appeared at PBS Frontline.",
+  "topics": [
+   "VR",
+   "journalism",
+   "STEAMM"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0058"
+ },
+ {
+  "date": "2018-09-26",
+  "role": "author",
+  "type": "Article",
+  "title": "The Woj Way: Science Technology Engineering Mathematics and MEDIA (STEMM)",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-science-technology-engineering-mathematics-and-media-stemm-2b4f6e0dba45",
+  "status": "opened",
+  "summary": "On Designership fellows' graduation and the case for adding media to STEM.",
+  "note": "",
+  "topics": [
+   "STEAMM",
+   "Designership",
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0057"
+ },
+ {
+  "date": "2018-09-25",
+  "role": "author",
+  "type": "Article",
+  "title": "Movement Thinking: Jibo the first social robot in a classroom stars in international documentary on moonshots in education",
+  "venue": "LinkedIn",
+  "url": "https://www.linkedin.com/pulse/jibo-now-yoga-certified-teacher-training-teach-esther-freedom",
+  "status": "opened",
+  "summary": "On the Jibo social robot's semester in a Design Tech High School classroom, where it reportedly led yoga and encouraged students to interact. The earliest dated use of Movement Thinking found here; the phrase is in the title only.",
+  "note": "",
+  "topics": [
+   "Movement Thinking",
+   "AI",
+   "robots",
+   "moonshots"
+  ],
+  "woj": 1,
+  "ai": 1,
+  "id": "FC-0056"
+ },
+ {
+  "date": "2018-09-24",
+  "role": "author",
+  "type": "Article",
+  "title": "How to Raise Successful People: Bill Gates moves away from decades long testing framework in favor of the moonshots framework",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-gates-moves-away-from-decades-long-policy-and-adopts-the-moonshots-framework-in-5fae5e03ab3c",
+  "status": "opened",
+  "summary": "Reads a Gates Foundation strategy change as a move toward the Woj Way and sets out the framework's elements.",
+  "note": "Medium says it first appeared at gettingsmart.com. Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way",
+   "assessment"
+  ],
+  "woj": 1,
+  "ai": 1,
+  "id": "FC-0055"
+ },
+ {
+  "date": "2018-09-23",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Elvis Zhang is the youngest listed on 2018 Forbes 30 under 30 Social Entrepreneurship Category",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-elvis-zhang-is-the-youngest-listed-on-2018-forbes-30-under-30-social-entrepreneurship-3ca01fdbd47f",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at lapost.us, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "fellows"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0054"
+ },
+ {
+  "date": "2018-09-23",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: California embraces computer science in its schools",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-california-embraces-computer-science-in-its-schools-3de108682b6",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at EdSource, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "computer science"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0053"
+ },
+ {
+  "date": "2018-09-21",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Stanford president urges new students to explore, connect and contribute",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-stanford-president-urges-new-students-to-explore-connect-and-contribute-49e1c8b589e7",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Stanford News on September 21, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Stanford"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0052"
+ },
+ {
+  "date": "2018-09-21",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way & The Future of Education: How Changes in the Way We Learn Will Change the Way We Work — 42",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-the-future-of-education-how-changes-in-the-way-we-learn-will-change-the-way-we-work-73795d525973",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at 42's blog on September 21, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "42",
+   "future of work"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0051"
+ },
+ {
+  "date": "2018-09-20",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Home School is excellent preparation for world renowned UC Berkeley Law School",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-home-school-is-excellent-preparation-for-world-renowned-uc-berkeley-law-school-86a6760f41dc",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at UC Berkeley News on September 20, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "homeschool"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0050"
+ },
+ {
+  "date": "2018-09-17",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: On Raising Successful People",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-on-raising-successful-people-a2d9f1369d19",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at TIME, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "parenting"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0049"
+ },
+ {
+  "date": "2018-09-17",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: A leading Palo Alto educator on how to create a classroom fit for this century",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-a-leading-palo-alto-educator-on-how-to-create-a-classroom-fit-for-this-century-68d032f8dece",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Quartz, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "teaching"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0048"
+ },
+ {
+  "date": "2018-09-17",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: A Mother’s Expert Tips on Raising Confident Daughters",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-a-mothers-expert-tips-on-raising-confident-daughters-e9502c70f699",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at TIME, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "parenting"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0047"
+ },
+ {
+  "date": "2018-09-15",
+  "role": "author",
+  "type": "Article",
+  "title": "The Woj Way: The Gift of Being Kind",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-the-gift-of-being-kind-d719538a0f2d",
+  "status": "opened",
+  "summary": "A short piece on kindness as a moonshot value.",
+  "note": "Medium says it first appeared on LinkedIn.",
+  "topics": [
+   "kindness",
+   "TRICK"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0046"
+ },
+ {
+  "date": "2018-09-14",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Musk signs up mystery passenger to take rocket trip around moon",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-musk-signs-up-mystery-passenger-to-take-rocket-trip-around-moon-fc7a65880a52",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Ad Age on September 14, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "space"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0045"
+ },
+ {
+  "date": "2018-09-13",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Yixue Education Squirrel AI Founder Joins World-Leading Experts at Global Summit to Highlight AI’s Impact on the Future of Chinese Education.",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-yixue-education-squirrel-ai-founder-joins-world-leading-experts-at-global-summit-to-3b9eda0d722c",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at AiThority on September 13, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "AI",
+   "China"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0044"
+ },
+ {
+  "date": "2018-09-09",
+  "role": "producer",
+  "type": "Video",
+  "title": "Moonshot Thinking: Education for All",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=so69j314uV4",
+  "status": "opened",
+  "summary": "A short Moonshot Thinking video.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "moonshots"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0043"
+ },
+ {
+  "date": "2018-09-09",
+  "role": "producer",
+  "type": "Video",
+  "title": "Designership Institute: Human Centered Design Journal",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=juz-v7mZWag",
+  "status": "opened",
+  "summary": "A short video on the Designership Institute's design journal.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0042"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Alibaba’s Jack Ma to retire to focus on Moonshots in Education",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-alibabas-jack-ma-to-retire-to-focus-on-moonshots-in-education-8abc1581792f",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at The Washington Post on September 8, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "moonshots"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0041"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "author",
+  "type": "Article",
+  "title": "The EduCoin: Stanford University Freshman, Miriam Haart, co-founds a revolutionary grading system using the Ethereum blockchain with Fiona Carty",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/the-educoin-stanford-university-freshman-miriam-haart-revolutionizes-grading-sytems-using-the-5b1d308e0d6",
+  "status": "opened",
+  "summary": "On EduCoin, a blockchain token for competency grading on the iStudy platform at Design Tech High School.",
+  "note": "",
+  "topics": [
+   "EduCoin",
+   "assessment"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0040"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "producer",
+  "type": "Video",
+  "title": "Moonshots: Woodside Priory Stanford d.school",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=EDAR2JixEcs",
+  "status": "opened",
+  "summary": "Students in a Moonshots session at the Stanford d.school.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "moonshots",
+   "Stanford"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0039"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "producer",
+  "type": "Video",
+  "title": "Moonshot Thinking: Woodside Priory  Stanford Yewno Research Ai Research",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=sDcBher03xI",
+  "status": "opened",
+  "summary": "Design as Discovery students at Stanford use design thinking to build peer-reviewed journals with AI research tools.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "AI",
+   "research",
+   "Designership"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0038"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "producer",
+  "type": "Video",
+  "title": "Designership dlab Oracle",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=bhHGUiO4vMg",
+  "status": "opened",
+  "summary": "A short video from the Designership design lab at Oracle.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0037"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "producer",
+  "type": "Video",
+  "title": "Designership Math",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=XXQGbkR8YNY",
+  "status": "opened",
+  "summary": "A short Designership classroom video on math.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "math"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0036"
+ },
+ {
+  "date": "2018-09-08",
+  "role": "producer",
+  "type": "Video",
+  "title": "Designership Empathy Mapping",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=-ra3f-eXUsQ",
+  "status": "opened",
+  "summary": "A short Designership classroom video on empathy mapping.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "empathy"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0035"
+ },
+ {
+  "date": "2018-09-07",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: West Hartford Student Vying For $400K In Global Science Contest",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-west-hartford-student-vying-for-400k-in-global-science-contest-da4322fd1b08",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Patch on September 7, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "science"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0034"
+ },
+ {
+  "date": "2018-09-07",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Not the apple of his eye, Steve Jobs’ daughter recalls a complicated man",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-not-the-apple-of-his-eye-steve-jobs-daughter-recalls-a-complicated-man-554a1fcba4b7",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at The Sydney Morning Herald on September 7, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Lisa Brennan-Jobs"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0033"
+ },
+ {
+  "date": "2018-08-30",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Stanford will no longer announce undergraduate application numbers",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-stanford-will-no-longer-announce-undergraduate-application-numbers-11dd2bbbdab5",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Stanford News on August 30, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "admissions"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0032"
+ },
+ {
+  "date": "2018-08-23",
+  "role": "author",
+  "type": "Article",
+  "title": "Moonshot in Education: World’s first Virtual Reality School launched in Silicon Valley by two Wojcicki Fellows @dtech!!",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/moonshot-in-education-worlds-first-virtual-reality-school-launched-in-silicon-valley-by-two-ad62e89faf4f",
+  "status": "opened",
+  "summary": "On two students who built a virtual reality school in their Moonshot design lab.",
+  "note": "Medium says it first appeared at The Next Web.",
+  "topics": [
+   "VR",
+   "The VR School"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0031"
+ },
+ {
+  "date": "2018-08-11",
+  "role": "author",
+  "type": "Article",
+  "title": "Woj back to school: Reward students for “taking time to learn.” (honored.org)",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/woj-back-to-school-reward-students-for-taking-time-to-learn-honored-org-5279ceb63256",
+  "status": "opened",
+  "summary": "A portrait of Esther Wojcicki's teaching, with photos from Woj Way events at Stanford.",
+  "note": "Medium says it first appeared at honored.org and credits the story to Bethany McLean. Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0030"
+ },
+ {
+  "date": "2018-08-09",
+  "role": "founder",
+  "type": "Project",
+  "title": "Designership Institute and Designership Press",
+  "venue": "designership.org",
+  "url": "https://web.archive.org/web/20180809/http://designership.org/",
+  "status": "listed",
+  "summary": "A student design initiative at Stanford with a fellowship, lab and peer-review press. Bios say it grew into InventXR.",
+  "note": "Archived copy; the live site no longer loads.",
+  "topics": [
+   "Designership"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0029"
+ },
+ {
+  "date": "2018-07-29",
+  "role": "producer",
+  "type": "Video",
+  "title": "2018 07 29 13 49 24",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=E3Co8gMH2A0",
+  "status": "opened",
+  "summary": "An untitled recording labelled EducationXR.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "VR"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0028"
+ },
+ {
+  "date": "2018-07-19",
+  "role": "producer",
+  "type": "Video",
+  "title": "Moonshots with Woj: 42 the world’s first self-driving classroom and school: Woj School of Thought",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=lp1ah-JBSUM",
+  "status": "opened",
+  "summary": "Presents 42 as a self-driving school certified by Moonshots, and the Woj Way as a trust framework spreading in schools.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Woj Way",
+   "42"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0027"
+ },
+ {
+  "date": "2018-07-17",
+  "role": "author",
+  "type": "Article",
+  "title": "Tom and Nobuko Shiokari: On the 49th anniversary after successfully sending the first men to walk on the moon, they grieve the loss of their teen grandchild to suicide. What is humanity responsible for?",
+  "venue": "Medium (@inventXR)",
+  "url": "https://medium.com/@inventXR/july-15th-2017-woodside-priory-schools-7th-grader-allie-vasudevan-asked-a-question-about-the-3dfb7f406002",
+  "status": "opened",
+  "summary": "Starts from a student's interview in the Design as Discovery lab to ask what technology owes to young people's wellbeing.",
+  "note": "Deals with a teenager's suicide.",
+  "topics": [
+   "design thinking",
+   "wellbeing"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0026"
+ },
+ {
+  "date": "2018-07-12",
+  "role": "author",
+  "type": "Series",
+  "title": "The Dr. Woj Way: Moonshots in Education Design",
+  "venue": "Medium series",
+  "url": "https://medium.com/series/the-dr-woj-way-moonshots-in-education-design-4bd92d685a42",
+  "status": "opened",
+  "summary": "A long illustrated series on Esther Wojcicki's framework, with trust as its starting point, and the schools, courses and fellows linked to it.",
+  "note": "Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "trust"
+  ],
+  "woj": 1,
+  "ai": 1,
+  "id": "FC-0025"
+ },
+ {
+  "date": "2018-07-11",
+  "role": "producer",
+  "type": "Video",
+  "title": "Moonshot Thinking with Esther Wojcicki: Brazil Moonshot Students at Stanford",
+  "venue": "Freedom Cheteni (Research.University)",
+  "url": "https://www.youtube.com/watch?v=J0456D2POhE",
+  "status": "opened",
+  "summary": "From a course Esther Wojcicki and Cheteni taught: Brazilian students use her TRICK framework to brainstorm behaviors that build and break trust.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "TRICK",
+   "trust",
+   "Stanford"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0024"
+ },
+ {
+  "date": "2018-07-06",
+  "role": "author",
+  "type": "Article",
+  "title": "World’s first K-12 Virtual Reality School: Moonshots in Education",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/moonshots-with-woj-virtual-reality-school-44a3df8aade5",
+  "status": "opened",
+  "summary": "Argues that schooling is out of date and proposes a K-12 virtual reality school.",
+  "note": "",
+  "topics": [
+   "VR",
+   "The VR School"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0023"
+ },
+ {
+  "date": "2018-07-06",
+  "role": "author",
+  "type": "Article",
+  "title": "42: The world’s first self driving college",
+  "venue": "Medium (@inventXR)",
+  "url": "https://medium.com/@inventXR/42-the-worlds-first-self-driving-college-45506efd8416",
+  "status": "opened",
+  "summary": "Presents the coding school 42 as a self-driving college.",
+  "note": "",
+  "topics": [
+   "42",
+   "self-driving school"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0022"
+ },
+ {
+  "date": "2018-07-03",
+  "role": "author",
+  "type": "Article",
+  "title": "Jibo: The first social robot in an autonomous classroom founded by Freedom Cheteni at The Research University (X)",
+  "venue": "Medium (@inventXR)",
+  "url": "https://medium.com/@inventXR/jibo-the-first-social-robot-in-an-autonomous-classroom-the-woj-way-17f5f5288876",
+  "status": "opened",
+  "summary": "Describes the Woj Research Group's work with the Jibo social robot in a Woj Way class Cheteni taught at Oracle.",
+  "note": "Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "AI",
+   "robots",
+   "Woj Way"
+  ],
+  "woj": 1,
+  "ai": 1,
+  "id": "FC-0021"
+ },
+ {
+  "date": "2018-06-26",
+  "role": "author",
+  "type": "Article",
+  "title": "Moonshots with Freedom Cheteni: 42 the world’s first self-driving classroom and school",
+  "venue": "Medium (@inventXR)",
+  "url": "https://medium.com/@inventXR/moonshots-with-woj-42-the-worlds-first-self-driving-classroom-and-school-489016ce4b7",
+  "status": "opened",
+  "summary": "Asks what a moonshot classroom is and presents 42 as a self-driving school under the Woj Way.",
+  "note": "Also a record in the Esther Wojcicki archive. A copy sits under medium.com/@stanford_37120.",
+  "topics": [
+   "Woj Way",
+   "42",
+   "self-driving school"
+  ],
+  "woj": 1,
+  "ai": 1,
+  "id": "FC-0020"
+ },
+ {
+  "date": "2018-04-18",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Esther Wojcicki interviews Maye Musk on a tale of Moonshot Moms",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-esther-wojcicki-interviews-maye-musk-on-a-tale-of-moonshot-moms-b880dcd023e9",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Harper's Bazaar on April 18, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "parenting"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0019"
+ },
+ {
+  "date": "2018-04-13",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Faculty Senate adjusts policies on GRE, graduate advising",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-faculty-senate-adjusts-policies-on-gre-graduate-advising-a8a1e0c58199",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Stanford News on April 13, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Stanford"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0018"
+ },
+ {
+  "date": "2018-04-02",
+  "role": "subject",
+  "type": "Profile",
+  "title": "By: Jasmin Texido",
+  "venue": "Medium (shared from the Design Tech student paper)",
+  "url": "https://medium.com/@freedomcheteni/by-jasmin-texido-148d24f25b1f",
+  "status": "opened",
+  "summary": "A student's profile of Cheteni as a math and Moonshot teacher at Design Tech High School.",
+  "note": "Medium says it first appeared at dtechdragon.com on April 2, 2018.",
+  "topics": [
+   "Design Tech"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0017"
+ },
+ {
+  "date": "2018-03-17",
+  "role": "founder",
+  "type": "Project",
+  "title": "InventXR LLC",
+  "venue": "inventxr.com",
+  "url": "https://web.archive.org/web/20190821/https://inventxr.com/news",
+  "status": "listed",
+  "summary": "Cheteni's education technology company: iStudy, JournalXR and EduCoin. Its 2019 news page reports a letter of intent with Zimbabwe's Ministry of Primary and Secondary Education.",
+  "note": "Archived copy. Bios give different start years.",
+  "topics": [
+   "InventXR",
+   "iStudy",
+   "EduCoin"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0016"
+ },
+ {
+  "date": "2018-02-28",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Kara Swisher teaches J-School UC Berkeley students how to report on Silicon Valley",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-kara-swisher-teaches-j-school-uc-berkeley-students-how-to-report-on-silicon-valley-a5db5f5d2ff6",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at UC Berkeley News on February 28, 2018, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "journalism"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0015"
+ },
+ {
+  "date": "2017-12-07",
+  "role": "repost",
+  "type": "Repost",
+  "title": "A Conversation with Esther Wojcicki on ‘Moonshots in Education’ at Design Tech High School at Oracle",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-a-conversation-with-esther-wojcicki-on-moonshots-in-education-730a71046518",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at HuffPost on December 7, 2017, written by Design Tech students, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "moonshots"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0014"
+ },
+ {
+  "date": "2017-09-22",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: National award-winning Palo Alto teacher takes unusual approach",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-national-award-winning-palo-alto-teacher-takes-unusual-approach-e1339d025028",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at The Mercury News on September 22, 2017, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "TRICK",
+   "teaching"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0013"
+ },
+ {
+  "date": "2017-09-02",
+  "role": "repost",
+  "type": "Repost",
+  "title": "World’s First Self-Driving classroom in a fully funded school: Moonshots in Education by Nicola Manzini",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/worlds-first-self-driving-classroom-in-a-fully-funded-school-moonshots-in-education-by-nicola-70a3211eca9f",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at nicolamanzini.com, a student's account of the 42 bootcamp, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "42"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0012"
+ },
+ {
+  "date": "2017-08-16",
+  "role": "author",
+  "type": "Article",
+  "title": "Moonshot Innovation Diploma (Moonshot ID): Make School with Woj",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/moonshot-innovation-diploma-moonshot-id-make-school-with-woj-f10f4dbb7dc9",
+  "status": "opened",
+  "summary": "Describes a diploma under a Woj Way Framework section, with Make School as the example.",
+  "note": "Medium says it first appeared on an Education Week blog. Also a record in the Esther Wojcicki archive.",
+  "topics": [
+   "Woj Way",
+   "diploma"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0011"
+ },
+ {
+  "date": "2017-07-23",
+  "role": "speaker",
+  "type": "Video",
+  "title": "Kiyoshi Global Forum: State of Education (Moonshot Thinking)",
+  "venue": "LightGrid",
+  "url": "https://www.youtube.com/watch?v=He4P3ZZ57x0",
+  "status": "opened",
+  "summary": "A conversation with Cheteni, introduced as curriculum and instruction director at the Stanford Peace Innovation Lab, on the state of education.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "moonshots"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0010"
+ },
+ {
+  "date": "2017-07-11",
+  "role": "subject",
+  "type": "Video",
+  "title": "Designership: Moonshot Thinking on Redesigning the Hospital Experience",
+  "venue": "LightGrid",
+  "url": "https://www.youtube.com/watch?v=QMVldzhICjA",
+  "status": "opened",
+  "summary": "Design Tech students in Cheteni's Design as Discovery course at Stanford reimagine the hospital stay.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "design thinking"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0009"
+ },
+ {
+  "date": "2017-06-23",
+  "role": "subject",
+  "type": "Video",
+  "title": "Designership Press: Advanced Authentic Research Journal, Palo Alto Unified School District",
+  "venue": "LightGrid",
+  "url": "https://www.youtube.com/watch?v=KpsiQfdOoDA",
+  "status": "opened",
+  "summary": "On Journal AIR, a peer-reviewed journal for high school research, described as a product of Esther Wojcicki's Moonshots framework.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "research"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0008"
+ },
+ {
+  "date": "2017-06-19",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: These Women Raised Six Silicon Valley CEOs — Here’s How They Did It",
+  "venue": "Medium",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-these-women-raised-six-silicon-valley-ceos-heres-how-they-did-it-249049447e06",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Forbes on June 19, 2017, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "parenting"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0007"
+ },
+ {
+  "date": "2017-06-16",
+  "role": "subject",
+  "type": "Video",
+  "title": "Designership Press at Stanford: Moonshot Peer Review for Europe",
+  "venue": "LightGrid",
+  "url": "https://www.youtube.com/watch?v=VYu_Ncl-KU8",
+  "status": "opened",
+  "summary": "An Austrian student in Cheteni's Moonshot Design Lab at the d.school plans a peer-review press for European high schoolers.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "research"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0006"
+ },
+ {
+  "date": "2017-06-08",
+  "role": "subject",
+  "type": "Video",
+  "title": "Designership At Stanford: Wojcicki Moonshot Thinking",
+  "venue": "LightGrid",
+  "url": "https://www.youtube.com/watch?v=EEXbMtSf-N8",
+  "status": "opened",
+  "summary": "Silicon Valley students in a design course at the Stanford d.school build the Designership Press, inspired by Esther Wojcicki's Moonshot Thinking.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "moonshots"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0005"
+ },
+ {
+  "date": "2017-04-21",
+  "role": "producer",
+  "type": "Video",
+  "title": "Designership: Design As Discovery @ Stanford Summer Institutes",
+  "venue": "Freedom Cheteni",
+  "url": "https://www.youtube.com/watch?v=diHmEusjHg4",
+  "status": "opened",
+  "summary": "A short video on the Design as Discovery course at Stanford Summer Institutes.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership",
+   "Stanford"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0004"
+ },
+ {
+  "date": "2017-04-20",
+  "role": "producer",
+  "type": "Video",
+  "title": "Design As Discovery",
+  "venue": "Freedom Cheteni",
+  "url": "https://www.youtube.com/watch?v=7LVeW97kszQ",
+  "status": "opened",
+  "summary": "The first video in the Designership course series.",
+  "note": "Title, date and description read; video not watched.",
+  "topics": [
+   "Designership"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0003"
+ },
+ {
+  "date": "2016-05-17",
+  "role": "author",
+  "type": "Article",
+  "title": "Kwame Yamgname: Father of the autonomous education system",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/kwame-yamgname-father-of-the-autonomous-education-system-2f168846ce21",
+  "status": "opened",
+  "summary": "Profiles 42 Silicon Valley's Kwame Yamgname and the classroom design behind peer-to-peer learning.",
+  "note": "",
+  "topics": [
+   "42",
+   "autonomous learning"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0002"
+ },
+ {
+  "date": "2014-10-20",
+  "role": "repost",
+  "type": "Repost",
+  "title": "The Woj Way: Tech Celebs Join Esther Wojcicki as New Media Center Opens at Palo Alto High",
+  "venue": "Medium",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-tech-celebs-join-esther-wojcicki-as-new-media-center-opens-at-palo-alto-high-23d2c940a347",
+  "status": "opened",
+  "summary": "Another outlet's story shared on Cheteni's Medium page.",
+  "note": "Shared on Cheteni's Medium page. Medium says it first appeared at Recode on October 20, 2014, and the text is that outlet's story, sometimes with a Woj Way title or added captions. Medium shows the original story's date.",
+  "topics": [
+   "Media Arts Center"
+  ],
+  "woj": 1,
+  "ai": 0,
+  "id": "FC-0001"
+ },
+ {
+  "date": "",
+  "role": "subject",
+  "type": "Podcast",
+  "title": "The VictoryXR Show: Dr. Freedom Cheteni, Nelson Mandela's Grandson, Joins Steve Grubbs to Discuss VR in Education",
+  "venue": "VictoryXR",
+  "url": "https://www.victoryxr.com/the-victoryxr-show-dr-freedom-chetani-nelson-mandelas-grandson-joins-steve-grubbs-to-discuss-vr-in-education/",
+  "status": "opened",
+  "summary": "Show notes for the conversation on federal funding for VR learning, AI agents as virtual teachers, and The VR School.",
+  "note": "Title as published; the family claim in it was not checked here. The video is listed separately.",
+  "topics": [
+   "VR",
+   "AI",
+   "The VR School"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0125"
+ },
+ {
+  "date": "",
+  "role": "founder",
+  "type": "Project",
+  "title": "The VR School",
+  "venue": "thevrschool.org",
+  "url": "https://www.thevrschool.org/",
+  "status": "listed",
+  "summary": "A K-12 virtual reality school that Cheteni leads as superintendent, according to K12 Digest and interviews.",
+  "note": "Accreditation and enrollment claims were not checked here.",
+  "topics": [
+   "VR",
+   "The VR School"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0124"
+ },
+ {
+  "date": "",
+  "role": "founder",
+  "type": "Project",
+  "title": "School of Freedom, School of AI and iTeachXR",
+  "venue": "sof.ai",
+  "url": "https://sof.ai/",
+  "status": "opened",
+  "summary": "The current home of Cheteni's schools and of Movement Thinking.",
+  "note": "",
+  "topics": [
+   "Movement Thinking",
+   "AI"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0123"
+ },
+ {
+  "date": "",
+  "role": "subject",
+  "type": "Profile",
+  "title": "School of Freedom",
+  "venue": "sof.ai",
+  "url": "https://sof.ai/",
+  "status": "opened",
+  "summary": "The gateway to The VR School, School of AI and iTeachXR, which calls itself the digital home of Movement Thinking and names Cheteni as founder. It lists four pillars: identity, pathway, practice and proof.",
+  "note": "Cheteni's own site.",
+  "topics": [
+   "Movement Thinking",
+   "AI"
+  ],
+  "woj": 0,
+  "ai": 1,
+  "id": "FC-0122"
+ },
+ {
+  "date": "",
+  "role": "subject",
+  "type": "Profile",
+  "title": "Freedom Cheteni's Profile",
+  "venue": "Muck Rack",
+  "url": "https://muckrack.com/freedom-cheteni",
+  "status": "opened",
+  "summary": "A journalist profile listing the K12 Digest and Medium bylines.",
+  "note": "Undated.",
+  "topics": [],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0121"
+ },
+ {
+  "date": "",
+  "role": "subject",
+  "type": "Profile",
+  "title": "Freedom Cheteni",
+  "venue": "Global Trust Group",
+  "url": "https://globaltrustgroup.com/freedom-cheteni/",
+  "status": "opened",
+  "summary": "A board biography: founder of InventXR, which it says grew from the Designership Institute at Stanford, and a Naledi board member.",
+  "note": "Undated.",
+  "topics": [
+   "InventXR",
+   "Designership"
+  ],
+  "woj": 0,
+  "ai": 0,
+  "id": "FC-0120"
+ }
+]
