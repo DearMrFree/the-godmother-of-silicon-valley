@@ -148,7 +148,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
 </div></header>
 
 <nav class="tabs" aria-label="Sections"><div class="wrap tabrow">
-  <a href="#archive">Archive</a><a href="#mentions">Mentions</a><a href="#cheteni">Freedom Cheteni</a><a href="#photos">Photos</a><a href="#life">Life</a><a href="#record">Roles and honors</a><a href="#disputed">Disputed facts</a><a href="#method">Gaps and method</a>
+  <a href="#archive">Archive</a><a href="#mentions">Mentions</a><a href="#cheteni">Freedom Cheteni</a><a href="#photos">Photos</a><a href="#troper">Marco Troper</a><a href="#life">Life</a><a href="#record">Roles and honors</a><a href="#disputed">Disputed facts</a><a href="#method">Gaps and method</a>
 </div></nav>
 
 <main class="wrap">
@@ -212,6 +212,21 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
   <div id="plist"></div>
 </section>
 
+<section id="v-troper" hidden>
+  <h2>Marco Troper (2004–2024)</h2>
+  <p class="sec-lede" id="tLede"></p>
+  <p class="sec-intro">Marco Troper was Esther Wojcicki's grandson and the son of Susan Wojcicki and Dennis Troper. He was a 19-year-old math student at UC Berkeley when he died in February 2024; the county coroner later ruled his death an accidental overdose. Freedom Cheteni mentored him in middle school, and several outlets quoted Cheteni's tribute. This list gathers what was published about him. It leaves out templated obituary sites that repeat news reports with invented details. A few sites with low reliability are kept and marked.</p>
+  <div class="filters">
+    <label class="q" for="tq">Search<input id="tq" type="search" placeholder="Try coroner, Menlo, scholarship, moonshot"></label>
+    <label for="tkind">Kind<select id="tkind"></select></label>
+    <label for="tname">Names<select id="tname"><option value="">All pages</option><option value="cheteni">Freedom Cheteni</option><option value="esther">Esther Wojcicki</option></select></label>
+    <label for="tabout">Focus<select id="tabout"><option value="">All pages</option><option value="1">About Marco</option><option value="0">Mentions him in another story</option></select></label>
+    <label for="tsort">Order<select id="tsort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+  </div>
+  <div class="status-row"><span id="tcount" aria-live="polite"></span></div>
+  <div id="tlist"></div>
+</section>
+
 <section id="v-life" hidden>
   <h2>Her life, year by year</h2>
   <p class="sec-intro">Dates follow the source named on each line. Where sources disagree, the Disputed facts tab sets out each version.</p>
@@ -270,12 +285,13 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
   </div>
 </section>
 </main>
-<footer><div class="wrap">Compiled November 4, 2026. Freedom Cheteni and Photos tabs added November 5, 2026. An independent research archive, not affiliated with or endorsed by Esther Wojcicki. Summaries are original. Sources belong to their publishers.</div></footer>
+<footer><div class="wrap">Compiled November 4, 2026. Freedom Cheteni, Photos and Marco Troper tabs added November 5, 2026. An independent research archive, not affiliated with or endorsed by Esther Wojcicki. Summaries are original. Sources belong to their publishers.</div></footer>
 
 <script id="data" type="application/json">__DATA__</script>
 <script id="mdata" type="application/json">__MENTIONS__</script>
 <script id="cdata" type="application/json">__CHETENI__</script>
 <script id="pdata" type="application/json">__PHOTOS__</script>
+<script id="tdata" type="application/json">__TROPER__</script>
 <script>
 (function(){
 const D=JSON.parse(document.getElementById('data').textContent);
@@ -456,8 +472,25 @@ crender();
 const BOTH={2:'Caption names both as pictured',1:'Both named; who is in the frame not confirmed',0:'One pictured; caption ties in the other'};
 $('plist').innerHTML=PH.map(e=>'<article class="ment"><div class="meta mono"><b style="font-weight:500;color:var(--fg)">'+fmt(e.date)+'</b><br>'+esc(e.id)+'</div><div>'+(e.file?'<img src="'+esc(e.file)+'" alt="'+esc(e.people)+'" loading="lazy" style="display:block;max-width:min(100%,520px);height:auto;border-radius:4px;margin:2px 0 10px">':'')+'<h3><a href="'+esc(e.page)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></h3><p><span class="pill">'+esc(BOTH[e.both])+'</span>'+esc(e.people)+' · Credit: '+esc(e.credit)+'</p><p class="sum" style="color:var(--fg)">'+esc(e.summary)+'</p>'+(e.note?'<p class="sum note">'+esc(e.note)+'</p>':'')+(e.img?'<p class="sum note"><a href="'+esc(e.img)+'" target="_blank" rel="noopener">Open the image file</a></p>':'')+'</div></article>').join('');
 
+/* troper */
+const TR=JSON.parse($('tdata').textContent);
+$('tLede').textContent=TR.length+' pages: '+TR.filter(e=>e.about).length+' about him and '+TR.filter(e=>!e.about).length+' that mention him in coverage of his mother\'s death. '+TR.filter(e=>e.cheteni).length+' name Freedom Cheteni and '+TR.filter(e=>e.esther).length+' name Esther Wojcicki. Checked November 5, 2026.';
+const tk={};TR.forEach(e=>tk[e.kind]=(tk[e.kind]||0)+1);
+$('tkind').innerHTML='<option value="">All kinds</option>'+Object.keys(tk).sort().map(k=>'<option value="'+esc(k)+'">'+esc(k)+' ('+tk[k]+')</option>').join('');
+const TT={q:'',kind:'',name:'',about:'',sort:'new'};
+function trender(){
+ const w=TT.q.toLowerCase().split(/\s+/).filter(Boolean);
+ const c=TR.filter(e=>(!TT.kind||e.kind===TT.kind)&&(!TT.name||e[TT.name])&&(TT.about===''||String(e.about)===TT.about)&&w.every(x=>(e.title+' '+e.site+' '+e.kind+' '+e.note).toLowerCase().includes(x)));
+ c.sort((a,b)=>TT.sort==='old'?(a.date||'9999').localeCompare(b.date||'9999'):(b.date||'0000').localeCompare(a.date||'0000'));
+ $('tcount').textContent='Showing '+c.length+' of '+TR.length+' pages';
+ $('tlist').innerHTML=c.length?c.map(e=>'<article class="ment"><div class="meta mono"><b style="font-weight:500;color:var(--fg)">'+fmt(e.date)+'</b><br>'+esc(e.id)+'</div><div><h3><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></h3><p>'+(e.cheteni?'<span class="pill">Freedom Cheteni</span>':'')+(e.esther?'<span class="pill">Esther Wojcicki</span>':'')+esc(e.kind)+' · '+esc(e.site)+(e.status==='listed'?' · not opened':'')+'</p>'+(e.note?'<p class="sum note">'+esc(e.note)+'</p>':'')+'</div></article>').join(''):'<p class="empty">No pages match these filters.</p>';
+}
+$('tq').addEventListener('input',ev=>{TT.q=ev.target.value;trender()});
+[['tkind','kind'],['tname','name'],['tabout','about'],['tsort','sort']].forEach(([i,k])=>$(i).addEventListener('change',ev=>{TT[k]=ev.target.value;trender()}));
+trender();
+
 /* routing */
-const VIEWS=['archive','mentions','cheteni','photos','life','record','disputed','method'];
+const VIEWS=['archive','mentions','cheteni','photos','troper','life','record','disputed','method'];
 function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='archive';show(v)}
 function show(v){
  VIEWS.forEach(x=>{$('v-'+x).hidden=x!==v});

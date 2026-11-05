@@ -8,6 +8,8 @@ m = json.load(open(os.path.join(H, "..", "corpus", "mentions.json"), encoding="u
 m["mentions"] = [{**{k: e[k] for k in ("id", "date", "kind", "title", "site", "url")}, **({"corpus": 1} if e["corpus_id"] else {}), **({"nick": 1} if e["nickname"] else {})} for e in m["mentions"]]
 cj = json.load(open(os.path.join(H, "..", "corpus", "cheteni.json"), encoding="utf8"))
 pj = json.load(open(os.path.join(H, "..", "corpus", "photos.json"), encoding="utf8"))
+tr = json.load(open(os.path.join(H, "..", "corpus", "troper.json"), encoding="utf8"))
+t = t.replace("__TROPER__", json.dumps(tr, ensure_ascii=False).replace("</", "<\\/"))
 t = t.replace("__CHETENI__", json.dumps(cj, ensure_ascii=False).replace("</", "<\\/")).replace("__PHOTOS__", json.dumps(pj, ensure_ascii=False).replace("</", "<\\/"))
 page = t.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__MENTIONS__", json.dumps(m, ensure_ascii=False).replace("</", "<\\/"))
 open(os.path.join(H, "artifact.html"), "w", encoding="utf8").write(page)
