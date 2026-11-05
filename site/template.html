@@ -73,6 +73,11 @@ h2{font-size:clamp(1.6rem,3.6vw,2.3rem);font-weight:700}
 .seg button{font:600 .9rem var(--body);color:var(--fg);background:none;border:0;padding:9px 12px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--green);color:var(--on-green)}
 .status-row{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;margin:0 0 6px;border-bottom:2px solid var(--fg);padding-bottom:9px}
+.ment{display:grid;grid-template-columns:7.2rem minmax(0,1fr);gap:18px;padding:11px 0;border-bottom:1px solid var(--line)}
+.ment .meta{color:var(--muted);font-size:.8rem;line-height:1.5}
+.ment h3{margin:0;font:600 1rem/1.35 var(--body);overflow-wrap:anywhere}
+.ment p{margin:2px 0 0;color:var(--muted);font-size:.86rem;overflow-wrap:anywhere}
+@media (max-width:640px){.ment{grid-template-columns:minmax(0,1fr);gap:3px}}
 .btn{font:600 .85rem var(--body);color:var(--green);background:none;border:1px solid var(--green);border-radius:4px;padding:6px 10px;cursor:pointer}
 .rec{display:grid;grid-template-columns:7.2rem minmax(0,1fr);gap:18px;padding:15px 0;border-bottom:1px solid var(--line)}
 .rec .meta{color:var(--muted);line-height:1.5}
@@ -142,7 +147,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
 </div></header>
 
 <nav class="tabs" aria-label="Sections"><div class="wrap tabrow">
-  <a href="#archive">Archive</a><a href="#life">Life</a><a href="#record">Roles and honors</a><a href="#disputed">Disputed facts</a><a href="#method">Gaps and method</a>
+  <a href="#archive">Archive</a><a href="#mentions">Mentions</a><a href="#life">Life</a><a href="#record">Roles and honors</a><a href="#disputed">Disputed facts</a><a href="#method">Gaps and method</a>
 </div></nav>
 
 <main class="wrap">
@@ -170,6 +175,20 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
   <div id="list"></div>
 </section>
 
+<section id="v-mentions" hidden>
+  <h2>Where she is mentioned</h2>
+  <p class="sec-lede" id="mLede"></p>
+  <div class="filters">
+    <label class="q" for="mq">Search<input id="mq" type="search" placeholder="Try Forbes, Franco, Mexico, grandmother"></label>
+    <label for="mkind">Kind of page<select id="mkind"></select></label>
+    <label for="myear">Year<select id="myear"></select></label>
+    <label for="msort">Order<select id="msort"><option value="new">Newest first</option><option value="old">Oldest first</option><option value="site">By site</option></select></label>
+  </div>
+  <div class="status-row"><span id="mcount" aria-live="polite"></span></div>
+  <div id="mlist"></div>
+  <p style="margin:16px 0 40px"><button class="btn" id="mmore" type="button">Show 100 more</button></p>
+</section>
+
 <section id="v-life" hidden>
   <h2>Her life, year by year</h2>
   <p class="sec-intro">Dates follow the source named on each line. Where sources disagree, the Disputed facts tab sets out each version.</p>
@@ -195,6 +214,8 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
   <div class="prose">
   <h2>Gaps and method</h2>
   <p>This archive is a strong start on her public record, and it is not yet everything she has written or said. No search can prove completeness across a career of more than 60 years, much of it in print.</p>
+  <h3>How the mentions list was built</h3>
+  <p id="mMethod"></p>
   <h3>How far each record was checked</h3>
   <dl class="legend">
     <dt class="st opened">Source read</dt><dd>The page itself was opened and its details were taken from it.</dd>
@@ -226,6 +247,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
 <footer><div class="wrap">Compiled November 4, 2026. An independent research archive, not affiliated with or endorsed by Esther Wojcicki. Summaries are original. Sources belong to their publishers.</div></footer>
 
 <script id="data" type="application/json">__DATA__</script>
+<script id="mdata" type="application/json">__MENTIONS__</script>
 <script>
 (function(){
 const D=JSON.parse(document.getElementById('data').textContent);
@@ -362,8 +384,31 @@ const DIS=[['Birth year','Wikipedia\'s lead says 1940 and its infobox says 1941.
 ['HuffPost dates','Live HuffPost pages show migration dates of 2016 and 2017 on older columns.','Uses dates from archived snapshots closest to publication.']];
 $('dis').innerHTML=DIS.map(r=>'<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td><td>'+esc(r[2])+'</td></tr>').join('');
 
+/* mentions */
+const MDATA=JSON.parse($('mdata').textContent),MROWS=MDATA.mentions,MSUM=MDATA.summary;
+$('mLede').textContent=MSUM.counted.toLocaleString('en-US')+' pages on '+MSUM.sites.toLocaleString('en-US')+' sites that name her. '+MROWS.filter(e=>e.corpus).length+' of them are also records in the archive. Each page was opened by a script on Nov 4, 2026, and its text contained her name. Her own sites and bylines, mirrors, retailers and syndicated copies are left out. Titles are as published, and this list has not been read by a person page by page.';
+$('tally').innerHTML+=' <a href="#mentions" style="color:inherit"><b>'+MSUM.counted.toLocaleString('en-US')+'</b> pages name her</a>.';
+const mkinds={};MROWS.forEach(e=>mkinds[e.kind]=(mkinds[e.kind]||0)+1);
+$('mkind').innerHTML='<option value="">All kinds</option>'+Object.keys(mkinds).sort().map(k=>'<option value="'+esc(k)+'">'+esc(k)+' ('+mkinds[k]+')</option>').join('');
+const myears=[...new Set(MROWS.map(e=>e.date.slice(0,4)).filter(Boolean))].sort().reverse();
+$('myear').innerHTML='<option value="">All years</option>'+myears.map(y=>'<option>'+y+'</option>').join('')+'<option value="none">Undated</option>';
+const MT={q:'',kind:'',year:'',sort:'new',n:100};
+function mrender(){
+ const w=MT.q.toLowerCase().split(/\s+/).filter(Boolean);
+ const c=MROWS.filter(e=>(!MT.kind||e.kind===MT.kind)&&(!MT.year||(MT.year==='none'?!e.date:e.date.startsWith(MT.year)))&&w.every(x=>(e.title+' '+e.site+' '+e.kind).toLowerCase().includes(x)));
+ c.sort((a,b)=>MT.sort==='site'?a.site.localeCompare(b.site):MT.sort==='old'?(a.date||'9999').localeCompare(b.date||'9999'):(b.date||'0000').localeCompare(a.date||'0000'));
+ $('mcount').textContent='Showing '+Math.min(MT.n,c.length).toLocaleString('en-US')+' of '+c.length.toLocaleString('en-US')+' matching pages';
+ $('mlist').innerHTML=c.length?c.slice(0,MT.n).map(e=>'<article class="ment"><div class="meta mono"><b style="font-weight:500;color:var(--fg)">'+fmt(e.date)+'</b><br>'+esc(e.id)+'</div><div><h3><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></h3><p>'+esc(e.kind)+' · '+esc(e.site)+'</p></div></article>').join(''):'<p class="empty">No pages match these filters. Clear a filter or try a broader word.</p>';
+ $('mmore').hidden=c.length<=MT.n;
+}
+$('mq').addEventListener('input',ev=>{MT.q=ev.target.value;MT.n=100;mrender()});
+[['mkind','kind'],['myear','year'],['msort','sort']].forEach(([i,k])=>$(i).addEventListener('change',ev=>{MT[k]=ev.target.value;MT.n=100;mrender()}));
+$('mmore').addEventListener('click',()=>{MT.n+=100;mrender()});
+mrender();
+const mex=MSUM.excluded;$('mMethod').textContent='A script gathered '+MSUM.candidates.toLocaleString('en-US')+' candidate links from news indexes, web search, publisher site search, podcast and video listings and Wikipedia, then opened each one and looked for her full name in the page text. Removed: '+Object.entries(mex).map(([k,v])=>k+' ('+v.toLocaleString('en-US')+')').join('; ')+'. A page that blocks scripts counts as not found, so major paywalled outlets are undercounted. A page may name her only once, in passing. Pages can change after the check.';
+
 /* routing */
-const VIEWS=['archive','life','record','disputed','method'];
+const VIEWS=['archive','mentions','life','record','disputed','method'];
 function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='archive';show(v)}
 function show(v){
  VIEWS.forEach(x=>{$('v-'+x).hidden=x!==v});
