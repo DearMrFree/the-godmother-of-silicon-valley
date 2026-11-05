@@ -13,9 +13,11 @@ SHOP=re.compile(r'(amazon\.|ebay\.|barnesandnoble|walmart|bookshop\.org|abebooks
 LIST=re.compile(r'(/tag/|/tags/|/category/|/categories/|/author/|/authors/|/topics?/|/search|[?&]s=|[?&]q=|/page/\d+|/archives?/?$|/feed/?$|/label/|^/esther-wojcicki/?$)',re.I)
 # Pages that use the nickname for her without her exact name, each kept after checking the wording around the nickname. Everything else that
 # has the nickname but not her name stays out: others have been given it (Elizabeth Holmes, Katia Verresen).
-NICK_ONLY=re.compile(r'(x8BmJXx3nIQ|ReRjIwyqO0Q|JWjgiZ_c1s0|8cILOwCWDws|inaugural-gsv-x-penn-state-ai|usglobalnews\.wordpress\.com/2026/04/19|businessinsider\.com/23andme-ceo-anne-wojcicki|KGO_20220202_230000|einfomax\.co\.kr/news/articleView\.html\?idxno=4410788)')
+NICK_ONLY=re.compile(r'(x8BmJXx3nIQ|ReRjIwyqO0Q|JWjgiZ_c1s0|8cILOwCWDws|tO1bRSFma2s|oNB3YGTm_I0|mjYV7gMicW8|ALOc3ZFVsTM|1pwYsxMW5dk|QiqASNJwg98|yQH3JTV89kk|iOZH0IQgKpg|VKn6Xfwp20g|mFzln0Pz77M|IXLosGQGlCA|inaugural-gsv-x-penn-state-ai|usglobalnews\.wordpress\.com/2026/04/19|businessinsider\.com/23andme-ceo-anne-wojcicki|KGO_20220202_230000|einfomax\.co\.kr/news/articleView\.html\?idxno=4410788)')
 FORTUNEVID=re.compile(r'fortune\.com/(media/(?!dd022e4e)|videos/series/)')
 BYLINE=re.compile(r'(^|\b)(i raised (2|two|three|3)|i(’|\')ve been|by esther wojcicki, contributor)',re.I)
+# Same book plug pasted into every description of unrelated sales videos: count one.
+PROMOCH=re.compile(r'^売れる493')
 OWNCH=re.compile(r'^(esther wojcicki|global moonshots|woj\b|moonshots)',re.I)
 host=lambda u:urllib.parse.urlparse(u).netloc.lower().removeprefix('www.').removeprefix('m.')
 def norm(u):
@@ -39,6 +41,7 @@ for x in rows:
     elif JUNK.search(u):drop['mirror, scrape or stock photo']+=1
     elif SHOP.search(u):drop['retailer']+=1
     elif FORTUNEVID.search(u):drop['sidebar or promo link only']+=1
+    elif x['src']=='youtube' and PROMOCH.search(x.get('channel') or '') and '7hfehdMaYjs' not in u:drop['sidebar or promo link only']+=1
     elif h.endswith('linkedin.com') and not x.get('gm'):drop['LinkedIn page without the nickname']+=1
     elif LIST.search(p.path+('?'+p.query if p.query else '')):drop['listing page']+=1
     elif norm(u) in keep:drop['same page at another URL']+=1
