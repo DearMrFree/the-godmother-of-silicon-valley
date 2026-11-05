@@ -1,0 +1,375 @@
+<title>The Godmother of Silicon Valley</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Besley:wght@500;700;900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout concept: a newspaper morgue file for a Paly journalism adviser. Verde green, proofreader's highlighter, clipping-file IDs. */
+:root{
+  --bg:#F1F5F0; --surface:#FBFDFA; --fg:#14241D; --muted:#51635A; --line:#CBD8CF;
+  --green:#0E5A41; --green-soft:#DCEBE1; --on-green:#F4FBF6; --hl:#F4E04D; --hl-ink:#1C1A05;
+  --bar:#2B7F60; --bar-hover:#0E5A41;
+  --display:"Besley",Georgia,"Times New Roman",serif; --body:"Public Sans",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D1814; --surface:#14231D; --fg:#E7F0EA; --muted:#A1B4AA; --line:#2C4238;
+  --green:#6FD0A6; --green-soft:#1C3A2E; --on-green:#07150F; --hl:#E8D440; --hl-ink:#1C1A05;
+  --bar:#4FAE88; --bar-hover:#8FE0BC; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D1814; --surface:#14231D; --fg:#E7F0EA; --muted:#A1B4AA; --line:#2C4238;
+  --green:#6FD0A6; --green-soft:#1C3A2E; --on-green:#07150F; --hl:#E8D440; --hl-ink:#1C1A05;
+  --bar:#4FAE88; --bar-hover:#8FE0BC; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--green);text-underline-offset:2px}
+:focus-visible{outline:3px solid var(--green);outline-offset:2px;border-radius:2px}
+mark,.hl{background:var(--hl);color:var(--hl-ink);padding:0 .15em}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.12;margin:0}
+.mono{font-family:var(--mono);font-size:.78rem;font-variant-numeric:tabular-nums}
+header.hero{padding-block:48px 36px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:48px;align-items:end}
+.slug{font-family:var(--mono);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+h1{font-size:clamp(2.7rem,6.6vw,5.2rem);font-weight:900;letter-spacing:-.025em;color:var(--green)}
+.lede{font-size:1.2rem;line-height:1.5;margin:20px 0 0;max-width:36em}
+.tally{margin:18px 0 0;color:var(--muted);max-width:40em}
+.tally b{color:var(--fg);font-variant-numeric:tabular-nums}
+.trick{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.trick li{display:grid;grid-template-columns:2.2rem minmax(0,1fr);gap:12px;align-items:baseline}
+.trick b{font:900 1.9rem/1 var(--display);color:var(--green)}
+.trick span{font-size:.93rem}
+.trick-cap{font-size:.84rem;color:var(--muted);margin:12px 0 0}
+nav.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-block:1px solid var(--line)}
+.tabrow{display:flex;gap:2px;overflow-x:auto}
+.tabrow a{padding:13px 14px;text-decoration:none;color:var(--fg);font-weight:600;font-size:.94rem;white-space:nowrap;border-bottom:3px solid transparent}
+.tabrow a[aria-current="page"]{border-bottom-color:var(--green);color:var(--green)}
+main{padding-block:32px 72px}
+section[hidden]{display:none}
+h2{font-size:clamp(1.6rem,3.6vw,2.3rem);font-weight:700}
+.sec-intro{max-width:44em;margin:10px 0 26px;color:var(--muted)}
+.picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 28px;margin:0 0 36px;padding:0;list-style:none}
+.picks li{min-width:0}
+.picks .why{display:block;font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-bottom:3px}
+.picks a{font:700 1.02rem/1.28 var(--display)}
+.chart{margin:0 0 26px}
+.chart h3{font:600 .95rem/1.3 var(--body);margin-bottom:10px}
+.plot{position:relative;padding-left:28px}
+.bars{display:flex;align-items:flex-end;gap:2px;height:112px;border-bottom:1px solid var(--muted)}
+.bars button{flex:1 1 0;min-width:0;height:100%;background:none;border:0;padding:0;cursor:pointer;display:flex;align-items:flex-end}
+.bars i{display:block;width:100%;background:var(--bar);border-radius:3px 3px 0 0;min-height:0}
+.bars button:hover i,.bars button:focus-visible i{background:var(--bar-hover)}
+.bars button[aria-pressed="true"] i{background:var(--hl);box-shadow:inset 0 0 0 1px var(--hl-ink)}
+.ymax{position:absolute;left:0;top:-2px;color:var(--muted)}
+.gridl{position:absolute;left:28px;right:0;top:0;border-top:1px dashed var(--line);pointer-events:none}
+.xaxis{position:relative;height:20px;margin-top:3px;color:var(--muted)}
+.xaxis span{position:absolute;transform:translateX(-50%)}
+.readout{min-height:1.4em;margin:4px 0 0;font-size:.86rem;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:0 0 14px}
+.filters label{display:grid;gap:3px;font-size:.76rem;font-weight:600;color:var(--muted)}
+.filters input,.filters select{font:inherit;font-size:.95rem;color:var(--fg);background:var(--surface);border:1px solid var(--muted);border-radius:4px;padding:8px 10px;max-width:100%}
+.filters .q{flex:1 1 260px}
+.filters .q input{width:100%}
+.seg{display:inline-flex;border:1px solid var(--muted);border-radius:4px;overflow:hidden;background:var(--surface);max-width:100%;flex-wrap:wrap}
+.seg button{font:600 .9rem var(--body);color:var(--fg);background:none;border:0;padding:9px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--green);color:var(--on-green)}
+.status-row{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;margin:0 0 6px;border-bottom:2px solid var(--fg);padding-bottom:9px}
+.btn{font:600 .85rem var(--body);color:var(--green);background:none;border:1px solid var(--green);border-radius:4px;padding:6px 10px;cursor:pointer}
+.rec{display:grid;grid-template-columns:7.2rem minmax(0,1fr);gap:18px;padding:15px 0;border-bottom:1px solid var(--line)}
+.rec .meta{color:var(--muted);line-height:1.5}
+.rec .meta b{display:block;color:var(--fg);font-weight:500;font-size:.85rem}
+.rec h3{font:700 1.08rem/1.3 var(--display)}
+.rec h3 a{text-decoration-thickness:1px}
+.venue{font-size:.88rem;color:var(--muted);margin:3px 0 0}
+.sum{margin:6px 0 0;max-width:46em;font-size:.97rem}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px;align-items:center}
+.tag{font:500 .74rem var(--mono);padding:2px 7px;border-radius:3px;background:var(--green-soft);color:var(--fg);border:0;cursor:pointer}
+.rel{font-weight:700}
+.st{font:500 .74rem var(--mono);color:var(--muted);padding:2px 0;margin-right:5px}
+.note{font-size:.92em;color:var(--muted,inherit)}
+.st.opened::before{content:"● "} .st.listed::before{content:"◐ "} .st.search::before{content:"○ "}
+.empty{padding:36px 0;color:var(--muted)}
+.tl{margin:0;padding:0;list-style:none}
+.tl li{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:18px;padding:11px 0;border-bottom:1px solid var(--line)}
+.tl time{font-family:var(--mono);font-size:.86rem;color:var(--green);font-weight:500;padding-top:2px}
+.tl .era{font:700 1.3rem var(--display);display:block;padding:24px 0 6px;grid-column:1/-1;color:var(--fg)}
+.tl li.head{display:block;border-bottom:2px solid var(--fg);padding:26px 0 6px}
+.src{font-size:.82rem;white-space:nowrap}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 48px}
+.cols h3{font-size:1.25rem;margin-bottom:10px}
+.plain{margin:0;padding:0;list-style:none}
+.plain li{padding:8px 0;border-bottom:1px solid var(--line);font-size:.96rem}
+.plain .y{font-family:var(--mono);font-size:.8rem;color:var(--green);display:inline-block;min-width:5.2em}
+.dis{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:.94rem}
+th{text-align:left;font-size:.78rem;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 16px 6px 0}
+td{vertical-align:top;border-bottom:1px solid var(--line);padding:11px 16px 11px 0}
+td:first-child{font-weight:600;width:22%}
+.prose{max-width:44em}
+.prose h3{font-size:1.25rem;margin:30px 0 8px}
+.prose ul{padding-left:1.15em;margin:8px 0}
+.prose li{margin:6px 0}
+dl.legend{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:6px 14px;margin:10px 0}
+dl.legend dd{margin:0}
+footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--muted);font-size:.86rem}
+@media (max-width:800px){
+  .hero-grid,.cols{grid-template-columns:minmax(0,1fr);gap:28px}
+  .picks{grid-template-columns:minmax(0,1fr)}
+  header.hero{padding-block:30px 26px}
+  .rec{grid-template-columns:minmax(0,1fr);gap:5px}
+  .rec .meta b{display:inline;margin-right:8px}
+  .tl li{grid-template-columns:4.8rem minmax(0,1fr);gap:10px}
+}
+@media (prefers-reduced-motion:no-preference){.tabrow a{transition:color .12s}}
+</style>
+
+<header class="hero"><div class="wrap hero-grid">
+  <div>
+    <p class="slug">Clipping file: Wojcicki, Esther D. ("Woj")</p>
+    <h1>The Godmother of Silicon Valley</h1>
+    <p class="lede">An independent research archive of work by, with and about <span class="hl">Esther Wojcicki</span>, the Palo Alto High School journalism teacher known by this nickname. It is not an official site.</p>
+    <p class="tally" id="tally"></p>
+  </div>
+  <div>
+    <ul class="trick" aria-label="The TRICK framework">
+      <li><b>T</b><span>Trust. Children and students take on real responsibility.</span></li>
+      <li><b>R</b><span>Respect. Their ideas and chosen paths are taken seriously.</span></li>
+      <li><b>I</b><span>Independence. They learn to manage themselves early.</span></li>
+      <li><b>C</b><span>Collaboration. Adults and kids work out rules and goals together.</span></li>
+      <li><b>K</b><span>Kindness. Gratitude and service to others come first.</span></li>
+    </ul>
+    <p class="trick-cap">Her framework, written up in a HuffPost column in 2013, six years before her parenting book.</p>
+  </div>
+</div></header>
+
+<nav class="tabs" aria-label="Sections"><div class="wrap tabrow">
+  <a href="#archive">Archive</a><a href="#life">Life</a><a href="#record">Roles and honors</a><a href="#disputed">Disputed facts</a><a href="#method">Gaps and method</a>
+</div></nav>
+
+<main class="wrap">
+<section id="v-archive">
+  <h2>Start here</h2>
+  <p class="sec-intro">Seven records that show the range of her work, in the order she made or lived them.</p>
+  <ul class="picks" id="picks"></ul>
+
+  <h2 id="all">The full archive</h2>
+  <p class="sec-intro">Search by title, outlet, person or topic. Each row links to the source and shows how well the record was checked.</p>
+  <figure class="chart">
+    <h3 id="chartT">Records per year. Select a bar to filter the list.</h3>
+    <div class="plot"><span class="ymax mono" id="ymax"></span><div class="gridl"></div><div class="bars" id="bars" role="group" aria-labelledby="chartT"></div><div class="xaxis mono" id="xaxis"></div></div>
+    <p class="readout" id="readout" aria-live="polite"></p>
+  </figure>
+  <div class="filters">
+    <label class="q" for="q">Search<input id="q" type="search" placeholder="Try Creative Commons, Franco, censorship, AI"></label>
+    <div><div style="font-size:.76rem;font-weight:600;color:var(--muted);margin-bottom:3px">Her part in it</div><div class="seg" id="rel"><button data-v="" aria-pressed="true">All</button><button data-v="by" aria-pressed="false">By her</button><button data-v="with" aria-pressed="false">With her</button><button data-v="about" aria-pressed="false">About her</button></div></div>
+    <label for="type">Format<select id="type"></select></label>
+    <label for="topic">Topic<select id="topic"></select></label>
+    <label for="status">Checked<select id="status"><option value="">Any</option><option value="opened">Source read</option><option value="listed">Source confirmed</option><option value="search">Search hit only</option></select></label>
+    <label for="sort">Order<select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+  </div>
+  <div class="status-row"><span id="count" aria-live="polite"></span><span style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="reset">Clear filters</button><button class="btn" id="copy">Copy this list</button></span></div>
+  <div id="list"></div>
+</section>
+
+<section id="v-life" hidden>
+  <h2>Her life, year by year</h2>
+  <p class="sec-intro">Dates follow the source named on each line. Where sources disagree, the Disputed facts tab sets out each version.</p>
+  <ol class="tl" id="tl"></ol>
+</section>
+
+<section id="v-record" hidden>
+  <h2>Roles and honors</h2>
+  <p class="sec-intro">Compiled from her résumé, publishers' bios and award announcements. Many board roles have no end date on record.</p>
+  <div class="cols">
+    <div><h3>Honors</h3><ul class="plain" id="honors"></ul></div>
+    <div><h3>Ventures and roles</h3><ul class="plain" id="roles"></ul><h3 style="margin-top:32px">Boards and advisory</h3><ul class="plain" id="boards"></ul><h3 style="margin-top:32px">Education</h3><ul class="plain" id="edu"></ul></div>
+  </div>
+</section>
+
+<section id="v-disputed" hidden>
+  <h2>Disputed facts</h2>
+  <p class="sec-intro">Her public record repeats some claims that its own sources do not settle. Check these before quoting a bio.</p>
+  <div class="dis"><table><thead><tr><th>Claim</th><th>What the sources say</th><th>How this archive treats it</th></tr></thead><tbody id="dis"></tbody></table></div>
+</section>
+
+<section id="v-method" hidden>
+  <div class="prose">
+  <h2>Gaps and method</h2>
+  <p>This archive is a strong start on her public record, and it is not yet everything she has written or said. No search can prove completeness across a career of more than 60 years, much of it in print.</p>
+  <h3>How far each record was checked</h3>
+  <dl class="legend">
+    <dt class="st opened">Source read</dt><dd>The page itself was opened and its details were taken from it.</dd>
+    <dt class="st listed">Source confirmed</dt><dd>Title and date came from an author page, publisher listing, archive snapshot or platform data. The full text was not reviewed.</dd>
+    <dt class="st search">Search hit only</dt><dd>The record came up in a web search and was not opened. Open it before citing it.</dd>
+  </dl>
+  <p>On November 4, 2026, the 67 records that had been search hits were each checked against their source. 63 could be opened, 3 could be confirmed only from a listing, a paywalled page or platform data, and 1 remains a search hit. Details were compared with extracted page text and metadata, not read line by line, and the Quartz videos were not watched. The check corrected dates, headlines, links and classifications, and each substantive change is noted on its record. Summaries were rewritten where the page did not support them. Pages read through the Wayback Machine link to the archived copy.</p>
+  <p>All 172 distinct live links were tested on November 4, 2026. 140 loaded, 2 redirected, 23 refused the automated check and 7 failed. Two more links, BrainPOP and the NIS conference, failed during the later source check. Failed links are marked on their records and may still work in a browser. Wayback Machine links were excluded from the test.</p>
+  <h3>Known gaps</h3>
+  <ul>
+    <li><b>Early reporting.</b> Her résumé lists work for the Glendale News-Press, Los Angeles Times, Time, San Jose Mercury News and Palo Alto Weekly. None of those bylines is indexed here. They need newspaper databases.</li>
+    <li><b>HotChalk.</b> Creative Commons' bio says she blogged there. No posts were found.</li>
+    <li><b>Her student publications.</b> The Paly Journalism Archive at palyjournalismarchive.pausd.org has not been searched for her own work or coverage.</li>
+    <li><b>HuffPost.</b> 72 columns dated 2007 to 2018 were recovered, mostly through Wayback Machine snapshots. Any column the archive never captured is missing.</li>
+    <li><b>Video and television.</b> A Tamron Hall appearance with Wanda Durant is listed by TV guides with no date. Many conference talks have no located recording, including a TED-branded talk her site mentions without a link.</li>
+    <li><b>Social media.</b> Individual LinkedIn, Facebook and X posts are excluded, apart from LinkedIn articles.</li>
+    <li><b>Blocked outlets.</b> The search tool could not reach The New York Times, The Guardian, The Telegraph, The Atlantic, Vox, The Wall Street Journal or the BBC. Their coverage is likely undercounted, so a library database search is the next step.</li>
+    <li><b>Foreign editions.</b> Translations of her book are not catalogued one by one.</li>
+  </ul>
+  <h3>How it was compiled</h3>
+  <p>The sources were web searches, her own sites, publisher and author pages, Wayback Machine indexes of her HuffPost blog, her Medium feed, and YouTube's public data for titles and upload dates. For videos, the date shown is the upload date, which can be later than the event.</p>
+  <p>The site links to sources and gives short summaries written for this archive. It does not republish her articles or books, so collecting full text would need permission from the rights holders. HuffPost summaries were written from each column's title and standfirst, without a review of the full text. They are a guide to the column and should not be quoted as her words.</p>
+  <p>The nickname is used here because it is widely attached to her. Its origin has not been traced. The earliest use in this archive is from 2019.</p>
+  <h3>Using the data</h3>
+  <p>The full dataset sits in the project's <span class="mono">corpus</span> folder as <span class="mono">corpus.json</span> and <span class="mono">corpus.csv</span>. Each record has an ID in the form WOJ-0001. IDs follow date order, so new records can renumber them.</p>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">Compiled November 4, 2026. An independent research archive, not affiliated with or endorsed by Esther Wojcicki. Summaries are original. Sources belong to their publishers.</div></footer>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+const D=JSON.parse(document.getElementById('data').textContent);
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const REL={by:'By her',with:'With her',about:'About her'}, ST={opened:'Source read',listed:'Source confirmed',search:'Search hit only'};
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const fmt=d=>{if(!d)return'Undated';const p=d.split('-');return p.length===1?p[0]:p.length===2?MON[+p[1]-1]+' '+p[0]:MON[+p[1]-1]+' '+(+p[2])+', '+p[0]};
+const n=k=>D.filter(e=>e.relation===k).length;
+const years=D.map(e=>e.date.slice(0,4)).filter(Boolean).sort();
+$('tally').innerHTML='<b>'+D.length+'</b> records so far: <b>'+n('by')+'</b> by her, <b>'+n('with')+'</b> talks and interviews with her, and <b>'+n('about')+'</b> about her, from '+years[0]+' to '+years[years.length-1]+'.';
+
+/* start here */
+const PICK=[['Carrying the torch','1998: The richest early profile'],['The Slow Death of High School','2007: Her earliest column found'],['Creating classrooms that work','2013: Her best-known talk'],['TRICK in Education','2013: The framework in her own words'],['How to Raise Successful People: Simple Lessons','2019: The bestseller'],['The Woj Way','2020: Her students on her retirement'],['AI, Education','2025: Her view on AI in schools']];
+$('picks').innerHTML=PICK.map(([f,w])=>{const e=D.find(x=>x.title.includes(f));return e?'<li><span class="why">'+esc(w)+'</span><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></li>':''}).join('');
+
+/* selects */
+const types=[...new Set(D.map(e=>e.type))].sort();
+$('type').innerHTML='<option value="">All formats</option>'+types.map(t=>'<option>'+esc(t)+'</option>').join('');
+const tc={};D.forEach(e=>e.topics.forEach(t=>tc[t]=(tc[t]||0)+1));
+const tops=Object.keys(tc).filter(t=>tc[t]>=2).sort((a,b)=>a.localeCompare(b));
+$('topic').innerHTML='<option value="">All topics</option>'+tops.map(t=>'<option value="'+esc(t)+'">'+esc(t)+' ('+tc[t]+')</option>').join('');
+
+const S={q:'',rel:'',type:'',topic:'',status:'',sort:'new',year:''};
+function match(e,yearToo){
+  if(S.rel&&e.relation!==S.rel)return false;
+  if(S.type&&e.type!==S.type)return false;
+  if(S.topic&&!e.topics.includes(S.topic))return false;
+  if(S.status&&e.status!==S.status)return false;
+  if(yearToo&&S.year&&(S.year==='Undated'?e.date:e.date.slice(0,4)!==S.year))return false;
+  if(S.q){const h=(e.title+' '+e.venue+' '+e.summary+' '+e.topics.join(' ')+' '+e.id+' '+e.date).toLowerCase();
+    if(!S.q.toLowerCase().split(/\s+/).filter(Boolean).every(w=>h.includes(w)))return false}
+  return true}
+function hi(s){const t=esc(s);if(!S.q)return t;const w=S.q.trim().split(/\s+/).filter(Boolean).map(x=>esc(x).replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));if(!w.length)return t;return t.replace(new RegExp('('+w.join('|')+')','gi'),'<mark>$1</mark>')}
+
+/* chart: one series, one scale */
+function chart(){
+  const first=1990,last=2026,set=D.filter(e=>match(e,false)),cnt={};
+  set.forEach(e=>{const y=e.date.slice(0,4);if(y)cnt[y]=(cnt[y]||0)+1});
+  const all={};D.forEach(e=>{const y=e.date.slice(0,4);if(y)all[y]=(all[y]||0)+1});
+  const max=Math.max(...Object.values(all));
+  $('ymax').textContent=max;
+  let h='';for(let y=first;y<=last;y++){const c=cnt[y]||0,on=S.year===String(y);
+    h+='<button data-y="'+y+'" aria-pressed="'+on+'" aria-label="'+y+': '+c+' records" '+(c?'':'tabindex="-1"')+'><i style="height:'+(c/max*100)+'%"></i></button>'}
+  $('bars').innerHTML=h;
+  let x='';for(let y=first;y<=last;y+=6)x+='<span style="left:'+((y-first+.5)/(last-first+1)*100)+'%">'+y+'</span>';
+  $('xaxis').innerHTML=x;
+}
+$('bars').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;S.year=S.year===b.dataset.y?'':b.dataset.y;render()});
+function say(ev){const b=ev.target.closest('button');if(b)$('readout').textContent=b.getAttribute('aria-label')+(S.year===b.dataset.y?'. Select again to clear.':'. Select to filter.')}
+$('bars').addEventListener('mouseover',say);$('bars').addEventListener('focusin',say);
+$('bars').addEventListener('mouseleave',()=>{$('readout').textContent=S.year?'Showing '+S.year+' only.':''});
+
+function row(e){
+ return '<article class="rec"><div class="meta mono"><b>'+fmt(e.date)+'</b>'+esc(e.id)+'</div><div>'+
+ '<h3><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+hi(e.title)+'</a></h3>'+
+ '<p class="venue"><span class="rel">'+REL[e.relation]+'</span> · '+esc(e.type)+' · '+hi(e.venue)+'</p>'+
+ '<p class="sum">'+hi(e.summary)+'</p>'+
+ (e.note?'<p class="sum note">'+hi(e.note)+'</p>':'')+
+ (e.archive?'<p class="sum note"><a href="'+esc(e.archive)+'" target="_blank" rel="noopener">Open the archived copy</a></p>':'')+
+ '<div class="tags"><span class="st '+e.status+'">'+ST[e.status]+'</span>'+(e.link_failed?'<span class="st">Live link failed on Nov 4, 2026</span>':'')+e.topics.map(t=>'<button class="tag" data-t="'+esc(t)+'">'+esc(t)+'</button>').join('')+'</div></div></article>'}
+let cur=[];
+function render(){
+ cur=D.filter(e=>match(e,true)).sort((a,b)=>{const x=a.date||'0000',y=b.date||'0000';return S.sort==='new'?y.localeCompare(x)||a.title.localeCompare(b.title):x.localeCompare(y)||a.title.localeCompare(b.title)});
+ $('count').textContent='Showing '+cur.length+' of '+D.length+' records'+(S.year?' from '+S.year:'');
+ $('list').innerHTML=cur.length?cur.map(row).join(''):'<p class="empty">No records match these filters. Clear a filter or try a broader word.</p>';
+ chart();
+ document.querySelectorAll('#rel button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.v===S.rel)));
+}
+$('q').addEventListener('input',ev=>{S.q=ev.target.value;render()});
+['type','topic','status','sort'].forEach(k=>$(k).addEventListener('change',ev=>{S[k]=ev.target.value;render()}));
+$('rel').addEventListener('click',ev=>{const b=ev.target.closest('button');if(b){S.rel=b.dataset.v;render()}});
+$('list').addEventListener('click',ev=>{const b=ev.target.closest('.tag');if(b){S.topic=tops.includes(b.dataset.t)?b.dataset.t:'';if(!S.topic){S.q=b.dataset.t;$('q').value=S.q}$('topic').value=S.topic;render();$('all').scrollIntoView({block:'start'})}});
+$('reset').addEventListener('click',()=>{Object.assign(S,{q:'',rel:'',type:'',topic:'',status:'',year:''});['q','type','topic','status'].forEach(k=>$(k).value='');$('readout').textContent='';render()});
+$('copy').addEventListener('click',ev=>{const txt=cur.map(e=>e.id+' | '+fmt(e.date)+' | '+e.title+' | '+e.venue+' | '+e.url).join('\n'),b=ev.target;
+ const ok=()=>{b.textContent='Copied '+cur.length;setTimeout(()=>b.textContent='Copy this list',1600)};
+ if(navigator.clipboard)navigator.clipboard.writeText(txt).then(ok,()=>{b.textContent='Copy was blocked'});else b.textContent='Copy was blocked'});
+
+/* static views */
+const L=(t,u)=>u?' <a class="src" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(t)+'</a>':'';
+const WIKI='https://en.wikipedia.org/wiki/Esther_Wojcicki',W98='https://www.paloaltoonline.com/morgue/news/1998_Apr_29.PEOPLE29.html',CV='https://gallery.carnegiefoundation.org/collections/castl_k12/ewojcicki2/about/resume.htm',CAMP='https://thecampanile.org/2020/06/02/the-woj-way-campanile-co-advisor-esther-wojcicki-announces-retirement/',BIO='https://raisesuccessfulpeople.com/about-the-author',MS='https://www.moonshots.org/estherwojcicki',CC='https://creativecommons.org/person/estherwojcicki/',LI='https://www.linkedin.com/in/estherwojcicki/';
+const TL=[['Early years'],
+['c. 1940','Born Esther Denise Hochman in New York City to Russian Jewish immigrants. The family later moved to Southern California.','Wikipedia',WIKI],
+['Mid-1950s','Takes a summer newspaper job at about 14, paid by the word. Later becomes editor of her high school paper and graduates as valedictorian.','Palo Alto Weekly',W98],
+['1960s','Attends UC Berkeley as a Regents Scholar, the first in her family at college. Joins Free Speech Movement protests and later freelances for Time.','Palo Alto Weekly',W98],
+['1962','Marries Stanley Wojcicki, then a physics doctoral student.','Wikipedia',WIKI],
+['1965–68','Teaches at Pacific High School in San Leandro, then San Carlos High School.','Résumé',CV],
+['1969','Moves to Palo Alto when Stanley joins Stanford\'s physics department. Raises Susan, Janet and Anne.','Palo Alto Weekly',W98],
+['Building Paly'],
+['1980–81','Teaches at the Lycée International de Ferney-Voltaire in France.','Résumé',CV],
+['1984','Takes over Paly journalism with 19 students in a room in the Tower Building.','The Campanile',CAMP],
+['1985','Her bio credits her with pioneering one-to-one Macintosh use in classrooms through a California state grant.','Moonshots',MS],
+['1990','Named Northern California Journalism Teacher of the Year.','Résumé',CV],
+['1998','Susan rents her Menlo Park garage to Larry Page and Sergey Brin, who set up Google there in September.','Wikipedia','https://en.wikipedia.org/wiki/Susan_Wojcicki'],
+['1999','Launches Verde magazine with 25 students. It wins a Gold Crown the same year.','The Campanile',CAMP],
+['2002','Named California Teacher of the Year by the state Commission on Teacher Credentialing.','Wikipedia',WIKI],
+['National voice'],
+['2005–06','Works as an educational consultant to Google. She helps lay the groundwork for the Google Teacher Academy.','Creative Commons',CC],
+['2007','Her earliest HuffPost column found warns of the decline of high school journalism.','HuffPost snapshot',(D.find(x=>x.title.includes('Slow Death'))||{}).url],
+['2008','Joins the Creative Commons board. She later serves as chair and vice chair.','Creative Commons','https://creativecommons.org/2008/07/10/education-innovator-esther-wojcicki-joins-creative-commons-board/'],
+['2009','Receives the Columbia Scholastic Press Association Gold Key and a MacArthur research award for Student Journalism 2.0.','Hargadon','https://www.stevehargadon.com/2009/10/esther-wojcicki-on-creative-commons-and.html'],
+['2013','Gives her TEDxBeaconStreet talk and writes up TRICK. Receives an honorary doctorate from Palo Alto University.','TEDx','https://www.youtube.com/watch?v=FbN8g6oPjBo'],
+['2014','The Media Arts Center opens at Paly in August.','Palo Alto Weekly','https://www.paloaltoonline.com/news/print/2014/10/17/a-new-home-for-journalism'],
+['2015','Publishes Moonshots in Education. James Franco returns to teach alongside her at Paly.','PR Newswire','https://www.prnewswire.com/news-releases/james-franco-honors-former-high-school-journalism-teacher-with-national-award-300514798.html'],
+['2016','Co-founds the Journalistic Learning Initiative at the University of Oregon with Ed Madison.','Wikipedia',WIKI],
+['Global reach'],
+['2017','Honored names her its teacher honoree. She founds the Moonshots in Education movement.','Wikipedia',WIKI],
+['2019','Publishes How to Raise Successful People. Global Moonshots in Education is formed as a nonprofit.','Global Moonshots','https://globalmoonshots.org/about-us/'],
+['2020','Announces her retirement from Paly in April. Co-founds Tract with former student Ari Memar around this time.','The Campanile',CAMP],
+['2023','Joins Pressto AI as chief academic advisor in February. Stanley Wojcicki dies.','eSchool News','https://www.eschoolnews.com/newsline/2023/02/20/leading-american-educator-and-journalist-esther-wojcicki-joins-award-winning-edtech-startup-pressto-ai/'],
+['2024','Her grandson Marco Troper dies in February. Her daughter Susan dies of lung cancer on August 9.','Fortune','https://fortune.com/2024/08/10/susan-wojcicki-former-youtube-ceo-google-dies-cancer/'],
+['2025','Receives the JEA Lifetime Achievement Award and the CSPA Platinum Key.','MY HERO','https://myhero.com/celebrating-esther-wojcicki-2'],
+['2026','Launches Treehub with former student Mary Minno. Speaks at Penn State IST\'s commencement. A documentary screens at the Computer History Museum. Announces ParentingChildren.com in November.','Fortune','https://fortune.com/2026/04/22/the-godmother-of-silicon-valley-former-student-healthcare-gets-built-treehub/']];
+$('tl').innerHTML=TL.map(r=>r.length===1?'<li class="head"><h3 style="font-size:1.3rem">'+esc(r[0])+'</h3></li>':'<li><time>'+esc(r[0])+'</time><div>'+esc(r[1])+L(r[2],r[3])+'</div></li>').join('');
+const P=a=>a.map(([y,t,s,u])=>'<li><span class="y">'+esc(y)+'</span> '+esc(t)+L(s,u)+'</li>').join('');
+$('honors').innerHTML=P([['2025','Platinum Key, Columbia Scholastic Press Association','CSPA','https://precollege.sps.columbia.edu/news/cspa-centennial-awards-platinum-key'],['2025','Lifetime Achievement Award, Journalism Education Association','JEA','https://jea.org/news/jea-names-8-lifetime-achievement-award-winners/'],['2020','Power of Women honoree, ASU+GSV Summit','ASU+GSV','https://asugsvsummit.com/honorees/dr-esther-wojcicki'],['2018','Honorary doctorate, Brasília (institution varies by source)','LinkedIn',LI],['2017','Honored teacher award, with James Franco\'s tribute','PR Newswire','https://www.prnewswire.com/news-releases/james-franco-honors-former-high-school-journalism-teacher-with-national-award-300514798.html'],['2016–17','Honorary doctorate, Rhode Island School of Design (year varies)','LinkedIn',LI],['2016','MY HERO Global Educator Award','Moonshots','http://www.moonshotsedu.com/new-index-1'],['2013','Honorary doctorate, Palo Alto University','LinkedIn',LI],['2011','Charles O\'Malley Award, Columbia Scholastic Press Association','CSPA','https://precollege.sps.columbia.edu/news/cspa-centennial-awards-platinum-key'],['2009','Gold Key, Columbia Scholastic Press Association','Wikipedia',WIKI],['2009','MacArthur Foundation research award, Student Journalism 2.0','Moonshots',MS],['2002','California Teacher of the Year, Commission on Teacher Credentialing','Résumé',CV],['2002','The Campanile named outstanding high school paper by Time and Time for Kids','Résumé',CV],['2001','Carnegie Foundation Scholar','Résumé',CV],['2001','Society of Professional Journalists award for scholastic journalism education','Résumé',CV],['2000','National Board certification, English Language Arts','Résumé',CV],['1999','Gold Crown and Pacemaker for Verde magazine','Résumé',CV],['1990','Journalism Teacher of the Year, Northern California','Résumé',CV]]);
+$('roles').innerHTML=P([['2026–','Treehub, residency for academic biotech and health founders, with Mary Minno','Fortune','https://fortune.com/2026/04/22/the-godmother-of-silicon-valley-former-student-healthcare-gets-built-treehub/'],['2023–','Chief academic advisor, Pressto AI','eSchool News','https://www.eschoolnews.com/newsline/2023/02/20/leading-american-educator-and-journalist-esther-wojcicki-joins-award-winning-edtech-startup-pressto-ai/'],['c. 2020','Co-founder and chief learning officer, Tract','Book site',BIO],['2019–','Founder and CEO, Global Moonshots in Education','Global Moonshots','https://globalmoonshots.org/about-us/'],['Undated','Founder, ParentingTRICK app','Wikipedia',WIKI],['Undated','Founder, WOJ Education','Penn State','https://www.psu.edu/news/information-sciences-and-technology/story/godmother-silicon-valley-esther-wojcicki-speak-ist'],['2016','Chief learning officer, Explore Planet3','Wikipedia',WIKI],['2016','Co-founder, Journalistic Learning Initiative','Wikipedia',WIKI],['2013–','Distinguished Visiting Scholar, MediaX at Stanford','MediaX','https://mediax.stanford.edu/about/esther-wojcicki'],['1984–2020','Teacher and journalism adviser, Palo Alto High School','CSPA','https://precollege.sps.columbia.edu/news/cspa-centennial-awards-platinum-key'],['1997–','Director of education, Varian Fry Foundation','Résumé',CV]]);
+$('boards').innerHTML=P([['2008–','Creative Commons: board, chair, vice chair, now listed as advisory council vice chair','Wikipedia',WIKI],['Undated','Embarcadero Media Foundation board','Wikipedia',WIKI],['Undated','Newseum and Freedom Forum boards','Wikipedia',WIKI],['Undated','Alliance for Excellent Education, Board of Governors','Wikipedia',WIKI],['Undated','Learning Matters, board chair','Wikipedia',WIKI],['Undated','Developmental Studies Center, Board of Trustees','Wikipedia',WIKI],['Undated','THNK School of Creative Leadership, advisory board','Wikipedia',WIKI],['Undated','Consultant to the US Department of Education, Hewlett and Carnegie','Book site',BIO]]);
+$('edu').innerHTML=P([['Undated','UC Berkeley: BA, teaching credential and journalism graduate study','Résumé',CV],['Undated','University of Geneva and the Sorbonne: studies in international relations and French history','Résumé',CV],['Undated','San Jose State University: MA in education and computers, MA in secondary administration','Résumé',CV]]);
+const DIS=[['Birth year','Wikipedia\'s lead says 1940 and its infobox says 1941. Her stated age was 77 in June 2019 (Forbes), 80 in May 2021 (EdTechX) and 81 in February 2023 (CNBC), which points to about 1941. J. listed her as 65 in September 2013, which does not fit.','Shown as c. 1940.'],
+['When she started at Paly','Her résumé says 1982 for teaching and 1985 for journalism. The Campanile and CSPA say 1984. A Palo Alto Weekly piece says 1985, and its October 2014 story says 1984, as do Fortune in 2009 and J. in 2013. Tenure is reported as 33, 36, 38 and 40 years.','Uses 1984 to 2020 for journalism, following the school paper and CSPA.'],
+['"Founder" of Paly journalism','Many bios say she founded the program. In a 2015 comment on Palo Alto Online, she said The Campanile already existed when she arrived.','She built and expanded the program. She founded Verde and later publications, and the Media Arts program is credited to her.'],
+['"Co-founder of Google Education"','University of the People and Fair Observer use this title. Other bios describe consulting in 2005–06 and helping set up the Google Teacher Academy. No Google document confirming the title was found.','Described as a consultant who helped set up the Teacher Academy.'],
+['Influence on Steve Jobs','Penn State, ASU+GSV, a Pressto announcement and an NIS conference bio say her work influenced or inspired Jobs. The documented link is her mentorship of his daughter, Lisa Brennan-Jobs. A story about Jobs and free Macintoshes appears in an interview and was not verified.','Records the Lisa Brennan-Jobs link only.'],
+['California Teacher of the Year','Sources credit the Commission on Teacher Credentialing, and her résumé adds a State Assembly committee. A state press release, which could not be opened, calls her one of three honorees at a 2002 event.','Named as the Commission\'s honor. Confirm against state records before treating it as the California Department of Education program.'],
+['Honorary doctorate in Brazil','Her book site says University of Brasília. Her LinkedIn says Centro Universitário de Brasília, a different institution.','Listed as Brasília, with the institution flagged.'],
+['RISD honorary doctorate','Sources give 2015, 2016 and 2017. Wikipedia tags the claim as needing a citation.','Listed as 2016–17.'],
+['TED appearance','Bios cite TED (2015), and her site mentions TED talks. Only TEDx talks were found, and there is no main-stage talk on record here.','Treated as TEDx unless a recording turns up.'],
+['Marriage year','The 1962 Valley Times notice is cited by Wikipedia. The 1998 Palo Alto Weekly profile places it around her 1964 graduation.','Uses 1962, the contemporaneous notice.'],
+['Moonshots in Education date','Publisher records and LinkedIn say 2015. The World Bank and other bios say 2014.','Uses February 2015.'],
+['Translated editions of her book','Sources say 24 or 31 languages.','Reports both.'],
+['MY HERO workbook credit','The March 2025 release names her co-author with Jonah Steinhart. MY HERO\'s profile page and book notes credit her with the foreword.','Filed as With her.'],
+['Journalistic Learning Initiative home','Wikipedia places it at the University of Oregon. One bio places it at the Embarcadero Media Foundation.','Uses University of Oregon, supported by Ed Madison\'s own account.'],
+['HuffPost dates','Live HuffPost pages show migration dates of 2016 and 2017 on older columns.','Uses dates from archived snapshots closest to publication.']];
+$('dis').innerHTML=DIS.map(r=>'<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td><td>'+esc(r[2])+'</td></tr>').join('');
+
+/* routing */
+const VIEWS=['archive','life','record','disputed','method'];
+function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='archive';show(v)}
+function show(v){
+ VIEWS.forEach(x=>{$('v-'+x).hidden=x!==v});
+ document.querySelectorAll('.tabrow a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});}
+window.addEventListener('hashchange',route);
+document.querySelector('.tabrow').addEventListener('click',ev=>{const a=ev.target.closest('a');if(!a)return;ev.preventDefault();const v=a.getAttribute('href').slice(1);show(v);try{location.hash=v}catch(e){}document.querySelector('nav.tabs').scrollIntoView({block:'start'})});
+route();render();
+})();
+</script>
