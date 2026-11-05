@@ -479,7 +479,7 @@ $('plist').innerHTML=PH.map(e=>'<article class="ment"><div class="meta mono"><b 
 
 /* troper */
 const TR=JSON.parse($('tdata').textContent);
-$('tLede').textContent=TR.length+' pages: '+TR.filter(e=>e.about).length+' about him and '+TR.filter(e=>!e.about).length+' that mention him in coverage of his mother\'s death. '+TR.filter(e=>e.cheteni).length+' name Freedom Cheteni and '+TR.filter(e=>e.esther).length+' name Esther Wojcicki. Checked November 5, 2026.';
+$('tLede').textContent=TR.length+' pages: '+TR.filter(e=>e.about).length+' about him and '+TR.filter(e=>!e.about).length+' that mention him in other stories, mostly about his mother\'s death. '+TR.filter(e=>e.cheteni).length+' name Freedom Cheteni and '+TR.filter(e=>e.esther).length+' name Esther Wojcicki. Checked November 5, 2026.';
 const tk={};TR.forEach(e=>tk[e.kind]=(tk[e.kind]||0)+1);
 $('tkind').innerHTML='<option value="">All kinds</option>'+Object.keys(tk).sort().map(k=>'<option value="'+esc(k)+'">'+esc(k)+' ('+tk[k]+')</option>').join('');
 const TT={q:'',kind:'',name:'',about:'',sort:'new'};
