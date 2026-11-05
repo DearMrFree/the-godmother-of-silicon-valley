@@ -181,6 +181,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
   <div class="filters">
     <label class="q" for="mq">Search<input id="mq" type="search" placeholder="Try Forbes, Franco, Mexico, grandmother"></label>
     <label for="mkind">Kind of page<select id="mkind"></select></label>
+    <label for="mnick">Nickname<select id="mnick"><option value="">All pages</option><option value="yes">Says "Godmother of Silicon Valley"</option></select></label>
     <label for="myear">Year<select id="myear"></select></label>
     <label for="msort">Order<select id="msort"><option value="new">Newest first</option><option value="old">Oldest first</option><option value="site">By site</option></select></label>
   </div>
@@ -386,26 +387,26 @@ $('dis').innerHTML=DIS.map(r=>'<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td><
 
 /* mentions */
 const MDATA=JSON.parse($('mdata').textContent),MROWS=MDATA.mentions,MSUM=MDATA.summary;
-$('mLede').textContent=MSUM.counted.toLocaleString('en-US')+' pages on '+MSUM.sites.toLocaleString('en-US')+' sites that name her. '+MROWS.filter(e=>e.corpus).length+' of them are also records in the archive. Each page was opened by a script on Nov 4, 2026, and its text contained her name. Her own sites and bylines, mirrors, retailers and syndicated copies are left out. Titles are as published, and this list has not been read by a person page by page.';
-$('tally').innerHTML+=' <a href="#mentions" style="color:inherit"><b>'+MSUM.counted.toLocaleString('en-US')+'</b> pages name her</a>.';
+$('mLede').textContent=MSUM.counted.toLocaleString('en-US')+' pages on '+MSUM.sites.toLocaleString('en-US')+' sites that name her or call her the Godmother of Silicon Valley, in any medium and language. '+MSUM.nickname.toLocaleString('en-US')+' use the nickname. '+MROWS.filter(e=>e.corpus).length+' of them are also records in the archive. A script checked each page on Nov 4, 2026 for her name or the nickname. Her own sites and bylines, mirrors, retailers and syndicated copies are left out. Titles are as published, and this list has not been read by a person page by page.';
+$('tally').innerHTML+=' <a href="#mentions" style="color:inherit"><b>'+MSUM.counted.toLocaleString('en-US')+'</b> pages name her or use her nickname</a>.';
 const mkinds={};MROWS.forEach(e=>mkinds[e.kind]=(mkinds[e.kind]||0)+1);
 $('mkind').innerHTML='<option value="">All kinds</option>'+Object.keys(mkinds).sort().map(k=>'<option value="'+esc(k)+'">'+esc(k)+' ('+mkinds[k]+')</option>').join('');
 const myears=[...new Set(MROWS.map(e=>e.date.slice(0,4)).filter(Boolean))].sort().reverse();
 $('myear').innerHTML='<option value="">All years</option>'+myears.map(y=>'<option>'+y+'</option>').join('')+'<option value="none">Undated</option>';
-const MT={q:'',kind:'',year:'',sort:'new',n:100};
+const MT={q:'',nick:'',kind:'',year:'',sort:'new',n:100};
 function mrender(){
  const w=MT.q.toLowerCase().split(/\s+/).filter(Boolean);
- const c=MROWS.filter(e=>(!MT.kind||e.kind===MT.kind)&&(!MT.year||(MT.year==='none'?!e.date:e.date.startsWith(MT.year)))&&w.every(x=>(e.title+' '+e.site+' '+e.kind).toLowerCase().includes(x)));
+ const c=MROWS.filter(e=>(!MT.nick||e.nick)&&(!MT.kind||e.kind===MT.kind)&&(!MT.year||(MT.year==='none'?!e.date:e.date.startsWith(MT.year)))&&w.every(x=>(e.title+' '+e.site+' '+e.kind).toLowerCase().includes(x)));
  c.sort((a,b)=>MT.sort==='site'?a.site.localeCompare(b.site):MT.sort==='old'?(a.date||'9999').localeCompare(b.date||'9999'):(b.date||'0000').localeCompare(a.date||'0000'));
  $('mcount').textContent='Showing '+Math.min(MT.n,c.length).toLocaleString('en-US')+' of '+c.length.toLocaleString('en-US')+' matching pages';
  $('mlist').innerHTML=c.length?c.slice(0,MT.n).map(e=>'<article class="ment"><div class="meta mono"><b style="font-weight:500;color:var(--fg)">'+fmt(e.date)+'</b><br>'+esc(e.id)+'</div><div><h3><a href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></h3><p>'+esc(e.kind)+' · '+esc(e.site)+'</p></div></article>').join(''):'<p class="empty">No pages match these filters. Clear a filter or try a broader word.</p>';
  $('mmore').hidden=c.length<=MT.n;
 }
 $('mq').addEventListener('input',ev=>{MT.q=ev.target.value;MT.n=100;mrender()});
-[['mkind','kind'],['myear','year'],['msort','sort']].forEach(([i,k])=>$(i).addEventListener('change',ev=>{MT[k]=ev.target.value;MT.n=100;mrender()}));
+[['mnick','nick'],['mkind','kind'],['myear','year'],['msort','sort']].forEach(([i,k])=>$(i).addEventListener('change',ev=>{MT[k]=ev.target.value;MT.n=100;mrender()}));
 $('mmore').addEventListener('click',()=>{MT.n+=100;mrender()});
 mrender();
-const mex=MSUM.excluded;$('mMethod').textContent='A script gathered '+MSUM.candidates.toLocaleString('en-US')+' candidate links from news indexes, web search, publisher site search, podcast and video listings and Wikipedia, then opened each one and looked for her full name in the page text. Removed: '+Object.entries(mex).map(([k,v])=>k+' ('+v.toLocaleString('en-US')+')').join('; ')+'. A page that blocks scripts counts as not found, so major paywalled outlets are undercounted. A page may name her only once, in passing. Pages can change after the check.';
+const mex=MSUM.excluded;$('mMethod').textContent='A script gathered '+MSUM.candidates.toLocaleString('en-US')+' candidate links from news indexes, web search, publisher site search, podcast and video listings and Wikipedia, then opened each one and looked for her full name or the nickname, including translations, in the page text. The nickname has also been used for other people, such as Elizabeth Holmes and an executive coach, so a page with the nickname but not her name was kept only after the wording around the nickname was checked and pointed to her. YouTube rate-limited the check, so 4 videos were matched on title alone. Removed: '+Object.entries(mex).map(([k,v])=>k+' ('+v.toLocaleString('en-US')+')').join('; ')+'. A page that blocks scripts counts as not found, so major paywalled outlets are undercounted. A page may name her only once, in passing. Pages can change after the check.';
 
 /* routing */
 const VIEWS=['archive','mentions','life','record','disputed','method'];

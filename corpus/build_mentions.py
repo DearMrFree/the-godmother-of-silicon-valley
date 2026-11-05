@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Turn checked pages (harvest/checked_pages.json) into the mentions database.
-Counted: pages fetched on the date shown whose own text names Esther Wojcicki, after removing her own
+Counted: pages fetched on the date shown whose own text names Esther Wojcicki or calls her the
+"Godmother of Silicon Valley" (in any language), after removing her own
 sites and bylines, mirrors, retailers, listing pages, duplicate URLs, identical text and syndicated copies."""
 import json,re,urllib.parse,collections,os,csv,html
 HERE=os.path.dirname(os.path.abspath(__file__))
@@ -10,6 +11,10 @@ OWN=re.compile(r'(parentingchildren\.com|raisesuccessfulpeople\.com|estherwojcic
 JUNK=re.compile(r'(wikiwand|wiki\.krisyotam|ipfs|cavac\.at|everybodywiki|alchetron|infogalactic|justapedia|wikimili|dbpedia|wiki2\.org|wikizero|sensagent|en-academic|crmcloud|primowater|educoast|yespress\.io|hmong\.|wikibrief|alamy|gettyimages|shutterstock|wn\.com|peoplepill|prabook|famousbirthdays|celebsagewiki|wikitree|grokipedia|dptribune|staging\.|wwwstage)',re.I)
 SHOP=re.compile(r'(amazon\.|ebay\.|barnesandnoble|walmart|bookshop\.org|abebooks|thriftbooks|alibris|bookdepository|booktopia|waterstones|target\.com|rakuten|kobo\.com|audible\.|scribd|perlego|everand|play\.google|wordery|blackwells|hugendubel|thalia|fnac|lazada|shopee|flipkart|bookbelow|phantombookshop)',re.I)
 LIST=re.compile(r'(/tag/|/tags/|/category/|/categories/|/author/|/authors/|/topics?/|/search|[?&]s=|[?&]q=|/page/\d+|/archives?/?$|/feed/?$|/label/|^/esther-wojcicki/?$)',re.I)
+# Pages that use the nickname for her without her exact name, each kept after checking the wording around the nickname. Everything else that
+# has the nickname but not her name stays out: others have been given it (Elizabeth Holmes, Katia Verresen).
+NICK_ONLY=re.compile(r'(x8BmJXx3nIQ|ReRjIwyqO0Q|JWjgiZ_c1s0|8cILOwCWDws|inaugural-gsv-x-penn-state-ai|usglobalnews\.wordpress\.com/2026/04/19|businessinsider\.com/23andme-ceo-anne-wojcicki|KGO_20220202_230000|einfomax\.co\.kr/news/articleView\.html\?idxno=4410788)')
+FORTUNEVID=re.compile(r'fortune\.com/(media/(?!dd022e4e)|videos/series/)')
 BYLINE=re.compile(r'(^|\b)(i raised (2|two|three|3)|i(’|\')ve been|by esther wojcicki, contributor)',re.I)
 OWNCH=re.compile(r'^(esther wojcicki|global moonshots|woj\b|moonshots)',re.I)
 host=lambda u:urllib.parse.urlparse(u).netloc.lower().removeprefix('www.').removeprefix('m.')
@@ -23,17 +28,18 @@ all_urls={norm(e['url']):e['id'] for e in corpus}
 drop=collections.Counter();keep={}
 for x in rows:
     u=x.get('final') or x['url']
-    if not x.get('found'):
-        drop['name not found on page, or page could not be read']+=1;continue
+    if not x.get('found') and not (x.get('gm') and NICK_ONLY.search(u)):
+        drop['neither name nor nickname for her found, or page could not be read']+=1;continue
     h=host(u);p=urllib.parse.urlparse(u);t=x.get('page_title') or x.get('title') or ''
     if not x.get('strict',True):drop['surname only, could be a daughter']+=1
     elif x.get('teaser'):drop['sidebar or promo link only']+=1
     elif x.get('byline'):drop['her own site or byline']+=1
-    elif OWN.search(h) or norm(u) in by_urls or (x['src']!='youtube' and BYLINE.search(t)):drop['her own site or byline']+=1
+    elif OWN.search(h) or re.search(r'linkedin\.com/(posts|in|pulse)/esther-?wojcicki',u,re.I) or norm(u) in by_urls or (x['src']!='youtube' and BYLINE.search(t)):drop['her own site or byline']+=1
     elif x['src']=='youtube' and OWNCH.search(x.get('channel') or ''):drop['her own site or byline']+=1
     elif JUNK.search(u):drop['mirror, scrape or stock photo']+=1
     elif SHOP.search(u):drop['retailer']+=1
-    elif h.endswith('linkedin.com'):drop['LinkedIn profile or post']+=1
+    elif FORTUNEVID.search(u):drop['sidebar or promo link only']+=1
+    elif h.endswith('linkedin.com') and not x.get('gm'):drop['LinkedIn page without the nickname']+=1
     elif LIST.search(p.path+('?'+p.query if p.query else '')):drop['listing page']+=1
     elif norm(u) in keep:drop['same page at another URL']+=1
     else:keep[norm(u)]=x;continue
@@ -61,6 +67,7 @@ def kind(x):
     u=x.get('final') or x['url'];h=host(u);p=u.lower();t=(x.get('page_title') or x.get('title') or '').lower()
     if re.search(r'youtube\.com|vimeo\.com|ted\.com/talks|c-span',h):return 'Video'
     if re.search(r'podcasts\.apple|podchaser|castbox|transistor|buzzsprout|castos|libsyn|podbean|spotify|listennotes|podcast',h+p):return 'Podcast'
+    if re.search(r'(^|\.)(linkedin|facebook|instagram|x|twitter|tiktok|threads|reddit)\.(com|net)$',h):return 'Social media'
     if 'wikipedia.org' in h:return 'Encyclopedia'
     if STUDENT.search(p):return 'Student press'
     if re.search(r'review|summary|book/|/books?/|goodreads|kirkus|blinkist|publishersweekly|netgalley',p):return 'Book review or summary'
@@ -90,13 +97,13 @@ for x in out:
         t=x.get('page_title') or urllib.parse.unquote(urllib.parse.urlparse(u).path.rstrip('/').split('/')[-1]).replace('-',' ') or host(u)
         if len(t)<12:t=(host(u)+': '+t).strip(': ')
     site=(x.get('channel')+' on YouTube') if x['src']=='youtube' and x.get('channel') else ((x.get('snip') or 'Apple Podcasts') if x['src']=='itunes' else host(u))
-    M.append(dict(title=t[:220],site=site,host=host(u),date=datef(x),kind=kind(x),url=u,found_via=x['src'].split(':')[0],named=x.get('hits') or 1,corpus_id=all_urls.get(norm(u),'')))
+    M.append(dict(title=t[:220],site=site,host=host(u),date=datef(x),kind=kind(x),url=u,found_via=x['src'].split(':')[0],named=x.get('hits') or 0,nickname=bool(x.get('gm')),corpus_id=all_urls.get(norm(u),'')))
 M.sort(key=lambda e:(e['date'] or '0000',e['title']),reverse=True)
 for n,e in enumerate(sorted(M,key=lambda e:(e['date'] or '9999',e['title'])),1):e['id']=f'MEN-{n:04d}'
-summary=dict(checked_on='2026-11-04',candidates=len(rows),counted=len(M),sites=len({e['host'] for e in M}),excluded=dict(drop.most_common()),kinds=dict(collections.Counter(e['kind'] for e in M).most_common()))
+summary=dict(checked_on='2026-11-04',candidates=len(rows),counted=len(M),sites=len({e['host'] for e in M}),nickname=sum(e['nickname'] for e in M),excluded=dict(drop.most_common()),kinds=dict(collections.Counter(e['kind'] for e in M).most_common()))
 json.dump(dict(summary=summary,mentions=M),open(os.path.join(HERE,'mentions.json'),'w',encoding='utf8'),ensure_ascii=False,indent=0)
 with open(os.path.join(HERE,'mentions.csv'),'w',newline='',encoding='utf8') as f:
-    w=csv.writer(f);w.writerow('id date kind title site url found_via times_named corpus_id'.split())
-    for e in M:w.writerow([e['id'],e['date'],e['kind'],e['title'],e['site'],e['url'],e['found_via'],e['named'],e['corpus_id']])
+    w=csv.writer(f);w.writerow('id date kind title site url found_via times_named uses_nickname corpus_id'.split())
+    for e in M:w.writerow([e['id'],e['date'],e['kind'],e['title'],e['site'],e['url'],e['found_via'],e['named'],'yes' if e['nickname'] else '',e['corpus_id']])
 print(json.dumps(summary,indent=1))
 hc=collections.Counter(e['host'] for e in M);print(hc.most_common(15));print(sum(1 for e in M if e['date']),'dated')

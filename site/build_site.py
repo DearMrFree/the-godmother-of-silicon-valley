@@ -5,7 +5,7 @@ H = os.path.dirname(os.path.abspath(__file__))
 data = json.load(open(os.path.join(H, "..", "corpus", "corpus.json"), encoding="utf8"))
 t = open(os.path.join(H, "template.html"), encoding="utf8").read()
 m = json.load(open(os.path.join(H, "..", "corpus", "mentions.json"), encoding="utf8"))
-m["mentions"] = [{**{k: e[k] for k in ("id", "date", "kind", "title", "site", "url")}, **({"corpus": 1} if e["corpus_id"] else {})} for e in m["mentions"]]
+m["mentions"] = [{**{k: e[k] for k in ("id", "date", "kind", "title", "site", "url")}, **({"corpus": 1} if e["corpus_id"] else {}), **({"nick": 1} if e["nickname"] else {})} for e in m["mentions"]]
 page = t.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__MENTIONS__", json.dumps(m, ensure_ascii=False).replace("</", "<\\/"))
 open(os.path.join(H, "artifact.html"), "w", encoding="utf8").write(page)
 open(os.path.join(H, "index.html"), "w", encoding="utf8").write(
