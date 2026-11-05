@@ -208,7 +208,7 @@ footer{border-top:1px solid var(--line);padding-block:20px 36px;color:var(--mute
 
 <section id="v-photos" hidden>
   <h2>Photos of Esther Wojcicki and Freedom Cheteni</h2>
-  <p class="sec-intro">Who is in each photo comes from its caption or title, not from looking at faces. The photos belong to their publishers and photographers, so this page links to them rather than copying them. Get permission before using any of them in the book.</p>
+  <p class="sec-intro">Who is in each photo comes from its caption or title, not from looking at faces. The photos belong to their publishers and photographers, so this page links to them rather than copying them. The two photos shown here come from Freedom Cheteni's own files and posts and were added at Cheteni's request. Get permission before using any of them in the book.</p>
   <div id="plist"></div>
 </section>
 
@@ -454,7 +454,7 @@ $('crole').addEventListener('click',ev=>{const b=ev.target.closest('button');if(
 [['cwoj','woj'],['cai','ai'],['csort','sort']].forEach(([i,k])=>$(i).addEventListener('change',ev=>{CT[k]=ev.target.value;crender()}));
 crender();
 const BOTH={2:'Caption names both as pictured',1:'Both named; who is in the frame not confirmed',0:'One pictured; caption ties in the other'};
-$('plist').innerHTML=PH.map(e=>'<article class="ment"><div class="meta mono"><b style="font-weight:500;color:var(--fg)">'+fmt(e.date)+'</b><br>'+esc(e.id)+'</div><div><h3><a href="'+esc(e.page)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></h3><p><span class="pill">'+esc(BOTH[e.both])+'</span>'+esc(e.people)+' · Credit: '+esc(e.credit)+'</p><p class="sum" style="color:var(--fg)">'+esc(e.summary)+'</p>'+(e.note?'<p class="sum note">'+esc(e.note)+'</p>':'')+(e.img?'<p class="sum note"><a href="'+esc(e.img)+'" target="_blank" rel="noopener">Open the image file</a></p>':'')+'</div></article>').join('');
+$('plist').innerHTML=PH.map(e=>'<article class="ment"><div class="meta mono"><b style="font-weight:500;color:var(--fg)">'+fmt(e.date)+'</b><br>'+esc(e.id)+'</div><div>'+(e.file?'<img src="'+esc(e.file)+'" alt="'+esc(e.people)+'" loading="lazy" style="display:block;max-width:min(100%,520px);height:auto;border-radius:4px;margin:2px 0 10px">':'')+'<h3><a href="'+esc(e.page)+'" target="_blank" rel="noopener">'+esc(e.title)+'</a></h3><p><span class="pill">'+esc(BOTH[e.both])+'</span>'+esc(e.people)+' · Credit: '+esc(e.credit)+'</p><p class="sum" style="color:var(--fg)">'+esc(e.summary)+'</p>'+(e.note?'<p class="sum note">'+esc(e.note)+'</p>':'')+(e.img?'<p class="sum note"><a href="'+esc(e.img)+'" target="_blank" rel="noopener">Open the image file</a></p>':'')+'</div></article>').join('');
 
 /* routing */
 const VIEWS=['archive','mentions','cheteni','photos','life','record','disputed','method'];

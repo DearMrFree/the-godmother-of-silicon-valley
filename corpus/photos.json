@@ -9,6 +9,7 @@
   "credit": "Not credited",
   "summary": "The caption names all four, left to right, with Wojcicki as Moonshots founder and Cheteni as Moonshots creative director.",
   "note": "",
+  "file": "",
   "id": "IMG-001"
  },
  {
@@ -21,7 +22,34 @@
   "credit": "Not credited",
   "summary": "The caption names Woj and Freedom with 23andMe's director of education, on designing trust in schools.",
   "note": "",
+  "file": "",
   "id": "IMG-002"
+ },
+ {
+  "date": "2019",
+  "both": 2,
+  "title": "VRX 2019 panel: The Wealth of Opportunities for XR in Education",
+  "page": "https://github.com/DearMrFree/the-godmother-of-silicon-valley/blob/main/site/photos/vrx-2019-panel.jpg",
+  "img": "",
+  "people": "Freedom Cheteni, Esther Wojcicki, Rachel Henderson, Dan White and the moderator",
+  "credit": "From Freedom Cheteni's files; photographer not named",
+  "summary": "Five people on stage under a slide naming the panel. It lists Cheteni of InventXR and Wojcicki of Global Moonshots in Education as panelists.",
+  "note": "The slide does not say who stands where. Added at Freedom Cheteni's request on 2026-11-05.",
+  "file": "photos/vrx-2019-panel.jpg",
+  "id": "IMG-003"
+ },
+ {
+  "date": "2023-04-20",
+  "both": 2,
+  "title": "ASU+GSV Summit, with Chase Dillon",
+  "page": "https://github.com/DearMrFree/the-godmother-of-silicon-valley/blob/main/site/photos/asugsv-2023.jpg",
+  "img": "",
+  "people": "Esther Wojcicki, Chase Dillon, Freedom Cheteni",
+  "credit": "Shared by Freedom Cheteni on LinkedIn; photographer not named",
+  "summary": "Wojcicki, the actor Chase Dillon and Cheteni at the 2023 ASU+GSV Summit. Cheteni's LinkedIn post names Wojcicki and Dillon.",
+  "note": "Cropped from a screenshot of the public post. Added at Freedom Cheteni's request on 2026-11-05.",
+  "file": "photos/asugsv-2023.jpg",
+  "id": "IMG-004"
  },
  {
   "date": "2018-07-11",
@@ -33,7 +61,8 @@
   "credit": "Freedom Cheteni (Research.University)",
   "summary": "Video from a course the description says Wojcicki and Cheteni taught together.",
   "note": "Who appears on screen was not checked.",
-  "id": "IMG-003"
+  "file": "",
+  "id": "IMG-005"
  },
  {
   "date": "2018-09-21",
@@ -45,7 +74,8 @@
   "credit": "Not credited",
   "summary": "The caption says Cheteni went to the school's official opening with Dr. Woj.",
   "note": "The caption does not say whether both are in the frame, and its image did not load for this check.",
-  "id": "IMG-004"
+  "file": "",
+  "id": "IMG-006"
  },
  {
   "date": "2019-04-07",
@@ -57,7 +87,8 @@
   "credit": "The Brainwaves Video Anthology",
   "summary": "A Brainwaves piece whose title pairs the two.",
   "note": "Who appears on screen was not checked.",
-  "id": "IMG-005"
+  "file": "",
+  "id": "IMG-007"
  },
  {
   "date": "2020-03-13",
@@ -69,7 +100,8 @@
   "credit": "Freedom Cheteni (Research.University)",
   "summary": "A livestream on Cheteni's channel with Wojcicki.",
   "note": "Who appears on screen was not checked.",
-  "id": "IMG-006"
+  "file": "",
+  "id": "IMG-008"
  },
  {
   "date": "2018-07-12",
@@ -81,7 +113,8 @@
   "credit": "Not credited",
   "summary": "Wojcicki teaching the Moonshots course the caption says Cheteni designed.",
   "note": "",
-  "id": "IMG-007"
+  "file": "",
+  "id": "IMG-009"
  },
  {
   "date": "2019-05-04",
@@ -93,6 +126,7 @@
   "credit": "Freedom Cheteni",
   "summary": "Wojcicki onstage with Ruth Copland after receiving the Life of a Maverick award. The photo is credited to Cheteni.",
   "note": "",
-  "id": "IMG-008"
+  "file": "",
+  "id": "IMG-010"
  }
 ]
