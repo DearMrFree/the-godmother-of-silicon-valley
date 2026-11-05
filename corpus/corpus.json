@@ -14,7 +14,7 @@
   "summary": "Announces ParentingChildren.com, offering parenting guidance for ages from birth to 18.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0238",
+  "id": "WOJ-0297",
   "link_failed": false
  },
  {
@@ -32,7 +32,7 @@
   "summary": "The most recent audio appearance found.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0237",
+  "id": "WOJ-0296",
   "link_failed": false
  },
  {
@@ -50,7 +50,7 @@
   "summary": "Live Q&A recorded after a screening of the documentary.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0236",
+  "id": "WOJ-0295",
   "link_failed": false
  },
  {
@@ -68,7 +68,7 @@
   "summary": "Interview with a learning-support audience.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0235",
+  "id": "WOJ-0294",
   "link_failed": false
  },
  {
@@ -87,7 +87,7 @@
   "summary": "Reports her Silicon Valley Girl remarks on why college still matters.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0234",
+  "id": "WOJ-0293",
   "link_failed": false
  },
  {
@@ -106,7 +106,7 @@
   "summary": "The source of her widely repeated remarks on why college still matters in the AI era.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0233",
+  "id": "WOJ-0292",
   "link_failed": false
  },
  {
@@ -124,7 +124,7 @@
   "summary": "Q&A after the 37-minute documentary with its executive director.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0232",
+  "id": "WOJ-0291",
   "link_failed": false
  },
  {
@@ -142,7 +142,7 @@
   "summary": "Announced spring commencement address, covered in Penn State's April 24 release.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0231",
+  "id": "WOJ-0290",
   "link_failed": false
  },
  {
@@ -160,7 +160,7 @@
   "summary": "University announcement with a current biographical summary.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0230",
+  "id": "WOJ-0289",
   "link_failed": false
  },
  {
@@ -179,7 +179,7 @@
   "summary": "A retrospective on failing fast, revising work and her daughters' setbacks.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0229",
+  "id": "WOJ-0288",
   "link_failed": false
  },
  {
@@ -198,7 +198,7 @@
   "summary": "Reports Treehub, a labs-to-launch residency she runs with former student Mary Minno.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0228",
+  "id": "WOJ-0287",
   "link_failed": false
  },
  {
@@ -217,7 +217,7 @@
   "summary": "A 32-minute Fortune interview from the same week as its Treehub report.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0227",
+  "id": "WOJ-0286",
   "link_failed": false
  },
  {
@@ -236,7 +236,7 @@
   "summary": "Conversation on how platform incentives affect reporting.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0226",
+  "id": "WOJ-0285",
   "link_failed": false
  },
  {
@@ -255,7 +255,7 @@
   "summary": "On youth mental health and fear-based parenting. The article version is dated February 28.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0225",
+  "id": "WOJ-0284",
   "link_failed": false
  },
  {
@@ -273,7 +273,24 @@
   "summary": "Short documentary on her influence. A Polish premiere is listed, and it screened at the Computer History Museum on June 2, 2026.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0224",
+  "id": "WOJ-0283",
+  "link_failed": false
+ },
+ {
+  "date": "2025-10-27",
+  "relation": "with",
+  "type": "Video",
+  "title": "The “Woj Way” | 10 MINUTES TO INSPIRE with Esther Wojcicki",
+  "venue": "TechEmotion",
+  "url": "https://www.youtube.com/watch?v=BAuIsfsJuK0",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "She explains the Woj Way as a method built on trust, kindness, independence and second chances.",
+  "note": "Description read, video not watched. The channel also posted the episode as https://www.youtube.com/watch?v=VlAIQmkBedg.",
+  "archive": "",
+  "id": "WOJ-0282",
   "link_failed": false
  },
  {
@@ -291,7 +308,7 @@
   "summary": "A 60-minute Singularity discussion on empowering the next generation.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0223",
+  "id": "WOJ-0281",
   "link_failed": false
  },
  {
@@ -310,7 +327,7 @@
   "summary": "Her advice on a no-secrets rule with grandparents.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0222",
+  "id": "WOJ-0280",
   "link_failed": false
  },
  {
@@ -329,7 +346,7 @@
   "summary": "Compares AI fears with earlier panic over calculators, and argues for structured AI literacy.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0221",
+  "id": "WOJ-0279",
   "link_failed": false
  },
  {
@@ -347,7 +364,7 @@
   "summary": "Her 2025 honors and the WOJ Youth Reporter Award.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0220",
+  "id": "WOJ-0278",
   "link_failed": false
  },
  {
@@ -366,7 +383,7 @@
   "summary": "A workbook for young reporters by her former student. MY HERO's profile credits her with the foreword, while its press release calls her a co-author.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0219",
+  "id": "WOJ-0277",
   "link_failed": false
  },
  {
@@ -384,7 +401,7 @@
   "summary": "Press release for the youth reporter workbook.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0218",
+  "id": "WOJ-0276",
   "link_failed": false
  },
  {
@@ -402,7 +419,7 @@
   "summary": "Centennial honor for Gold Key holders with lasting impact.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0217",
+  "id": "WOJ-0275",
   "link_failed": false
  },
  {
@@ -420,7 +437,7 @@
   "summary": "She is one of eight honorees in JEA's 2025 class.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0216",
+  "id": "WOJ-0274",
   "link_failed": false
  },
  {
@@ -439,7 +456,7 @@
   "summary": "Aleta Margolis on student engagement and AI in classrooms.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0215",
+  "id": "WOJ-0273",
   "link_failed": false
  },
  {
@@ -458,7 +475,7 @@
   "summary": "Looks back at the decline of tech optimism, and her family's success and loss.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0214",
+  "id": "WOJ-0272",
   "link_failed": false
  },
  {
@@ -477,7 +494,7 @@
   "summary": "A retrospective drawing on what she has said about her daughters.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0213",
+  "id": "WOJ-0271",
   "link_failed": false
  },
  {
@@ -496,7 +513,7 @@
   "summary": "Local report on the death of her eldest daughter.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0212",
+  "id": "WOJ-0270",
   "link_failed": false
  },
  {
@@ -515,7 +532,7 @@
   "summary": "On her teaching career, hands-off parenting and Creative Commons. Also on YouTube.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0211",
+  "id": "WOJ-0269",
   "link_failed": false
  },
  {
@@ -534,7 +551,7 @@
   "summary": "A 15-minute stage presentation on bringing the Moonshot Pirates youth movement to the US.",
   "note": "Corrected: this was filed under April 2025 with a book signing. The page shows April 16, 2024 and mentions no signing.",
   "archive": "",
-  "id": "WOJ-0210",
+  "id": "WOJ-0268",
   "link_failed": false
  },
  {
@@ -552,7 +569,7 @@
   "summary": "Reports her public announcement of the death of her grandson, Marco Troper.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0209",
+  "id": "WOJ-0267",
   "link_failed": false
  },
  {
@@ -570,7 +587,7 @@
   "summary": "The most recent piece on her CNBC contributor page.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0208",
+  "id": "WOJ-0266",
   "link_failed": false
  },
  {
@@ -588,7 +605,7 @@
   "summary": "Online Q&A moderated by Kosma Kulczycki for the university's 30th anniversary.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0207",
+  "id": "WOJ-0265",
   "link_failed": false
  },
  {
@@ -606,7 +623,7 @@
   "summary": "A 45-minute interview. Re-uploaded on 2023-09-06 by Shankar Hemmady.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0206",
+  "id": "WOJ-0264",
   "link_failed": false
  },
  {
@@ -625,7 +642,24 @@
   "summary": "Speaker page for this Central European innovation congress.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0205",
+  "id": "WOJ-0263",
+  "link_failed": false
+ },
+ {
+  "date": "2023-04-20",
+  "relation": "about",
+  "type": "Audio",
+  "title": "Woj Way.",
+  "venue": "Internet Archive (community upload)",
+  "url": "https://archive.org/details/08_20230420_202304",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A Slovenian-language audio upload introducing her.",
+  "note": "Item details read, audio not heard. The uploader is not identified.",
+  "archive": "",
+  "id": "WOJ-0262",
   "link_failed": false
  },
  {
@@ -644,7 +678,7 @@
   "summary": "Features her role as chief academic advisor at Pressto.",
   "note": "Read through an archived copy because the site blocked automated access.",
   "archive": "https://web.archive.org/web/20230412223131/https://www.fastcompany.com/90869664/pressto-generative-ai-writing-education-esther-wojcicki",
-  "id": "WOJ-0204",
+  "id": "WOJ-0261",
   "link_failed": false
  },
  {
@@ -662,7 +696,7 @@
   "summary": "Listing for a one-hour online interview event. It does not confirm that a recording exists.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0203",
+  "id": "WOJ-0260",
   "link_failed": false
  },
  {
@@ -681,7 +715,7 @@
   "summary": "Company announcement of her role as chief academic advisor.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0202",
+  "id": "WOJ-0259",
   "link_failed": false
  },
  {
@@ -699,7 +733,7 @@
   "summary": "Reports her remarks at the World Government Summit in Dubai on cutting the importance of grades.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0201",
+  "id": "WOJ-0258",
   "link_failed": false
  },
  {
@@ -717,7 +751,7 @@
   "summary": "Speaker page listing a 25-minute session in the summit's Learning and Work track. CNBC's report from Dubai cites this summit.",
   "note": "The live page is gone. Read through an archived copy.",
   "archive": "https://web.archive.org/web/20250218233258/https://live.worldgovernmentsummit.org/events/2023/speaker-detail/0139e198-ac81-445f-ab16-09a516e73515esther-wojcicki",
-  "id": "WOJ-0200",
+  "id": "WOJ-0257",
   "link_failed": true
  },
  {
@@ -735,7 +769,7 @@
   "summary": "A second piece against overprotective parenting, listed under her CNBC contributor page.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0199",
+  "id": "WOJ-0256",
   "link_failed": false
  },
  {
@@ -753,7 +787,7 @@
   "summary": "A 23-minute life story interview.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0198",
+  "id": "WOJ-0255",
   "link_failed": false
  },
  {
@@ -772,7 +806,7 @@
   "summary": "On self-regulation, including how to set household rules for technology.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0197",
+  "id": "WOJ-0254",
   "link_failed": false
  },
  {
@@ -791,7 +825,7 @@
   "summary": "Makes the case for letting children make their own decisions earlier than most parents are comfortable with.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0196",
+  "id": "WOJ-0253",
   "link_failed": false
  },
  {
@@ -810,7 +844,7 @@
   "summary": "Reports a seed round led by NEA.",
   "note": "Read through an archived copy because the live page gave little text.",
   "archive": "https://web.archive.org/web/20220918081227/https://femwealth.substack.com/p/esther-wojcickis-tract-raises-7m",
-  "id": "WOJ-0195",
+  "id": "WOJ-0252",
   "link_failed": false
  },
  {
@@ -828,7 +862,7 @@
   "summary": "Names helicopter parenting as the style she considers most harmful.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0194",
+  "id": "WOJ-0251",
   "link_failed": false
  },
  {
@@ -847,7 +881,7 @@
   "summary": "In-person keynote in English.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0193",
+  "id": "WOJ-0250",
   "link_failed": false
  },
  {
@@ -866,7 +900,7 @@
   "summary": "A 42-minute session given under her Tract affiliation.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0192",
+  "id": "WOJ-0249",
   "link_failed": false
  },
  {
@@ -884,7 +918,24 @@
   "summary": "On TRICK, Tract, media literacy and avoiding fake news. The page includes a transcript.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0191",
+  "id": "WOJ-0248",
+  "link_failed": false
+ },
+ {
+  "date": "2021-10-10",
+  "relation": "about",
+  "type": "Video",
+  "title": "Как воспитать успешного человека - The Woj Way - Эстер Войджицки - Владимир Науменко",
+  "venue": "Vladimir Naumenko on YouTube",
+  "url": "https://www.youtube.com/watch?v=0ugUPnA8XuE",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A Russian-language audio presentation of the book, with an introduction by Naumenko.",
+  "note": "Description read, audio not heard. Not a publisher release as far as the listing shows.",
+  "archive": "",
+  "id": "WOJ-0247",
   "link_failed": false
  },
  {
@@ -902,7 +953,7 @@
   "summary": "A 39-minute session on leadership and parenting methods.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0190",
+  "id": "WOJ-0246",
   "link_failed": false
  },
  {
@@ -920,7 +971,7 @@
   "summary": "$22,000 in family foundation funding for the school's digitized journalism archive.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0189",
+  "id": "WOJ-0245",
   "link_failed": false
  },
  {
@@ -938,7 +989,7 @@
   "summary": "A profile focused on Tract's peer-learning model.",
   "note": "Read through an archived copy because the site blocked automated access.",
   "archive": "https://web.archive.org/web/20220906080200/https://medium.com/edtechx360/how-the-godmother-of-silicon-valley-is-empowering-kids-to-change-the-world-9c347bb1194f",
-  "id": "WOJ-0188",
+  "id": "WOJ-0244",
   "link_failed": false
  },
  {
@@ -956,7 +1007,7 @@
   "summary": "A 51-minute conversation.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0187",
+  "id": "WOJ-0243",
   "link_failed": false
  },
  {
@@ -974,7 +1025,7 @@
   "summary": "Written Q&A about Tract and leadership.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0186",
+  "id": "WOJ-0242",
   "link_failed": false
  },
  {
@@ -993,7 +1044,7 @@
   "summary": "A long piece on her pedagogy, posted to her Medium account.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0185",
+  "id": "WOJ-0241",
   "link_failed": false
  },
  {
@@ -1010,7 +1061,26 @@
   "summary": "On education, parenting and what counts as being successful.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0184",
+  "id": "WOJ-0240",
+  "link_failed": false
+ },
+ {
+  "date": "2021-01-11",
+  "relation": "by",
+  "type": "Column",
+  "title": "How to talk to children in times of crisis",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20210116031328/https://www.wojway.com/post/how-to-talk-to-children-in-times-of-crisis/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Written after the January 6, 2021 attack on the US Capitol, on making room to talk and listen at home and school.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0239",
   "link_failed": false
  },
  {
@@ -1028,7 +1098,102 @@
   "summary": "Panel with Kara May, Ray Girn and Byron Sanders.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0183",
+  "id": "WOJ-0238",
+  "link_failed": false
+ },
+ {
+  "date": "2020-12-25",
+  "relation": "by",
+  "type": "Column",
+  "title": "Why Hope This Holiday Can Bring Calm And Happiness",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20210116024610/https://www.wojway.com/post/why-hope-this-holiday-can-bring-calm-and-happiness/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "A short Christmas 2020 message on keeping hope at the end of a hard year.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0237",
+  "link_failed": false
+ },
+ {
+  "date": "2020-11-26",
+  "relation": "by",
+  "type": "Column",
+  "title": "How Being Thankful Can Help Improve Your Relationships",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20210116022800/https://www.wojway.com/post/how-being-thankful-can-help-improve-your-relationships/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "A Thanksgiving 2020 column on gratitude as a support for families under strain.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0236",
+  "link_failed": false
+ },
+ {
+  "date": "2020-11-16",
+  "relation": "by",
+  "type": "Column",
+  "title": "How do you make your kids want to study?",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20201206011306/https://www.wojway.com/post/how-do-you-make-your-kids-want-to-study/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Answers a parent of a 16-year-old in online school, with steps toward self-directed study.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0235",
+  "link_failed": false
+ },
+ {
+  "date": "2020-11-02",
+  "relation": "by",
+  "type": "Column",
+  "title": "How to Remove Fear and Anxiety From Online Work & School",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20201206005351/https://www.wojway.com/post/how-to-remove-fear-and-anxiety-from-online-work-school/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Suggests ways to make home less stressful and to help fearful children take risks.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0234",
+  "link_failed": false
+ },
+ {
+  "date": "2020-10-07",
+  "relation": "by",
+  "type": "Column",
+  "title": "Why Grit Is More Important Than Intelligence",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20201022090430/https://www.wojway.com/post/why-grit-is-more-important-than-intelligence/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Presents the pandemic as a chance to teach grit, with practical ways to build it.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0233",
   "link_failed": false
  },
  {
@@ -1046,7 +1211,26 @@
   "summary": "A 36-minute conversation about modernizing education.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0182",
+  "id": "WOJ-0232",
+  "link_failed": false
+ },
+ {
+  "date": "2020-09-21",
+  "relation": "by",
+  "type": "Column",
+  "title": "Ruth Bader Ginsburg's Parenting Wisdom We Should All Practice",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20201022093714/https://www.wojway.com/post/ruth-bader-ginsburgs-parenting-wisdom-we-should-all-practice/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "A tribute to Ginsburg that draws out her values as a parent.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0231",
   "link_failed": false
  },
  {
@@ -1065,7 +1249,26 @@
   "summary": "A tribute she shared, opening with a statement from Geeta Anand of UC Berkeley's journalism school. Authorship is partly Anand's.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0181",
+  "id": "WOJ-0230",
+  "link_failed": false
+ },
+ {
+  "date": "2020-09-14",
+  "relation": "by",
+  "type": "Column",
+  "title": "How to create a healthy routine for your children amidst chaos",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921154442/https://www.wojway.com/post/how-to-create-a-healthy-routine-for-your-children-amidst-chaos/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Answers a reader's question on routines that support children during the pandemic.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0229",
   "link_failed": false
  },
  {
@@ -1083,7 +1286,159 @@
   "summary": "A 49-minute interview. The title says 2022, but the upload date is 2020.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0180",
+  "id": "WOJ-0228",
+  "link_failed": false
+ },
+ {
+  "date": "2020-09-08",
+  "relation": "by",
+  "type": "Column",
+  "title": "2 Tips To Help Your Child Video Game Less, Study More",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921160859/https://www.wojway.com/post/2-tips-to-help-your-child-video-game-less-study-more/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Answers a parent whose son's gaming crowds out study, using trust and moderation.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0227",
+  "link_failed": false
+ },
+ {
+  "date": "2020-08-31",
+  "relation": "by",
+  "type": "Column",
+  "title": "The Secret to Happy, Engaged Learners",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921144121/https://www.wojway.com/post/the-secret-to-happy-engaged-learners/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Argues that social interaction and happiness should come first for children schooled at home.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0226",
+  "link_failed": false
+ },
+ {
+  "date": "2020-08-17",
+  "relation": "by",
+  "type": "Column",
+  "title": "How falling behind in school can get you ahead in life",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921153614/https://www.wojway.com/post/how-falling-behind-in-school-can-get-you-ahead-in-life/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Responds to a New York Times parenting column, arguing that life skills matter more than grade-level trivia.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0225",
+  "link_failed": false
+ },
+ {
+  "date": "2020-08-10",
+  "relation": "by",
+  "type": "Column",
+  "title": "What to do when your child won't talk to you",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921163227/https://www.wojway.com/post/what-to-do-when-your-child-wont-talk-to-you/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Answers parents of withdrawn children, with steps to repair the relationship.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0224",
+  "link_failed": false
+ },
+ {
+  "date": "2020-08-03",
+  "relation": "by",
+  "type": "Column",
+  "title": "2 Secrets To Managing Your Child's Extra Gaming & TV Use",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921171023/https://www.wojway.com/post/2-secrets-to-managing-your-childs-extra-gaming-tv-use/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Answers a reader's question about the rise in summer screen time, with strategies for games, TV and YouTube.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0223",
+  "link_failed": false
+ },
+ {
+  "date": "2020-07-27",
+  "relation": "by",
+  "type": "Column",
+  "title": "The Therapeutic Benefits of Play",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200813075955/https://www.wojway.com/post/the-therapeutic-benefits-of-play/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "On imaginary play as a way for children to manage their emotions during the pandemic.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0222",
+  "link_failed": false
+ },
+ {
+  "date": "2020-07-20",
+  "relation": "by",
+  "type": "Column",
+  "title": "Micro-Schooling: Is This The Future?",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200813075304/https://www.wojway.com/post/micro-schooling/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Looks at parents hiring teachers for small groups as the fall 2020 school reopening stayed uncertain.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0221",
+  "link_failed": false
+ },
+ {
+  "date": "2020-07-13",
+  "relation": "by",
+  "type": "Column",
+  "title": "Reopening Schools Safely",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200813073815/https://www.wojway.com/post/reopening-schools-safely/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Advice for families after the federal push in July 2020 to reopen schools.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0220",
   "link_failed": false
  },
  {
@@ -1101,7 +1456,45 @@
   "summary": "A list of parenting habits she argues undermine children's resilience.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0179",
+  "id": "WOJ-0219",
+  "link_failed": false
+ },
+ {
+  "date": "2020-07-06",
+  "relation": "by",
+  "type": "Column",
+  "title": "7 Ways to Teach Independence",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200813092444/https://www.wojway.com/post/7-ways-to-teach-independence/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Ties the Fourth of July to the I in TRICK and lists ways to build independence at home.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0218",
+  "link_failed": false
+ },
+ {
+  "date": "2020-06-29",
+  "relation": "by",
+  "type": "Column",
+  "title": "Adulting: Never too early to start",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921153903/https://www.wojway.com/post/adulting-never-too-early-to-start/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Uses UC Berkeley's adulting course to argue that children should learn to manage their own lives early.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0217",
   "link_failed": false
  },
  {
@@ -1119,7 +1512,45 @@
   "summary": "What teens need from the adults at home.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0178",
+  "id": "WOJ-0216",
+  "link_failed": false
+ },
+ {
+  "date": "2020-06-22",
+  "relation": "by",
+  "type": "Column",
+  "title": "Celebrating fathers with simple at home activities",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921153108/https://www.wojway.com/post/celebrating-fathers-with-simple-at-home-activities/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Father's Day ideas for a pandemic year, written with those who lost someone to Covid-19 in mind.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0215",
+  "link_failed": false
+ },
+ {
+  "date": "2020-06-08",
+  "relation": "by",
+  "type": "Column",
+  "title": "Talking To Your Child About Racism and Inequity",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921144511/https://www.wojway.com/post/talking-to-your-child-about-racism-and-inequity/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Points parents to resources for honest, age-appropriate talks during the 2020 protests.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0214",
   "link_failed": false
  },
  {
@@ -1138,7 +1569,62 @@
   "summary": "Her own students' account of her retirement and the growth of the program.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0177",
+  "id": "WOJ-0213",
+  "link_failed": false
+ },
+ {
+  "date": "2020-06-01",
+  "relation": "by",
+  "type": "Column",
+  "title": "Protecting Without Being Overprotectve",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921160614/https://www.wojway.com/post/protecting-your-kids-without-being-overprotective/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Written during the unrest of June 2020, on teaching children to protect themselves without hovering.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0212",
+  "link_failed": false
+ },
+ {
+  "date": "2020-06",
+  "relation": "about",
+  "type": "Multimedia profile",
+  "title": "The Woj Way",
+  "venue": "The Campanile staff (Annie Chen, Frida Rivera, Jaures Yip, Lucy Nemerov, Miranda Li), on Adobe Express",
+  "url": "https://new.express.adobe.com/page/88AtnU4Jkgq8U/",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "An illustrated companion to the Campanile's retirement story: 38 years of the Paly program, and her plan to launch WojWay with former students.",
+  "note": "Date inferred from the text and the June 2, 2020 story.",
+  "archive": "",
+  "id": "WOJ-0211",
+  "link_failed": false
+ },
+ {
+  "date": "2020-05-26",
+  "relation": "by",
+  "type": "Column",
+  "title": "Independent Kids Make Parenting Easier",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921160412/https://www.wojway.com/post/independent-kids-make-parenting-easier/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Starts from a Canadian government memo on working from home and argues for a collaborative relationship with children.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0210",
   "link_failed": false
  },
  {
@@ -1156,7 +1642,81 @@
   "summary": "A 93-minute interview, among the longest found.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0176",
+  "id": "WOJ-0209",
+  "link_failed": false
+ },
+ {
+  "date": "2020-05-18",
+  "relation": "by",
+  "type": "Column",
+  "title": "Learning through everyday activities",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921145418/https://www.wojway.com/post/learning-through-everyday-activities/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "On teaching lifelong skills through daily tasks during lockdown.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0208",
+  "link_failed": false
+ },
+ {
+  "date": "2020-05-10",
+  "relation": "by",
+  "type": "Column",
+  "title": "Closing The Creativity Gap",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921145951/https://www.wojway.com/post/creativity-is-being-stifled/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "A Mother's Day column on project-based learning as a way to build creativity at home.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0207",
+  "link_failed": false
+ },
+ {
+  "date": "2020-05-02",
+  "relation": "by",
+  "type": "Column",
+  "title": "Remote learning is breaking parents",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921161723/https://www.wojway.com/post/remote-learning-is-breaking-parents/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "Argues that online school demands were not working for parents, teachers or children.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0206",
+  "link_failed": false
+ },
+ {
+  "date": "2020-05-02",
+  "relation": "by",
+  "type": "Activity",
+  "title": "Cereal box report",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921152328/https://www.wojway.com/challenge/cereal-box-report/",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A student activity: report on a favorite book, audiobook or video in the form of a cereal box.",
+  "note": "Subscribers only. Only the title and description in the archived copy were read.",
+  "archive": "",
+  "id": "WOJ-0205",
   "link_failed": false
  },
  {
@@ -1175,7 +1735,60 @@
   "summary": "A popular source for the nickname. Walks through the acronym and how grit fits in.",
   "note": "Read through an archived copy because the site blocked automated access.",
   "archive": "https://web.archive.org/web/20260311014658/https://guykawasaki.com/esther-wojcicki/",
-  "id": "WOJ-0175",
+  "id": "WOJ-0204",
+  "link_failed": false
+ },
+ {
+  "date": "2020-04-27",
+  "relation": "by",
+  "type": "Column",
+  "title": "Crisis Schooling: How to survive, thrive, and prepare for what’s next",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921154955/https://www.wojway.com/post/crisis-schooling-how-to-survive-thrive-and-prepare-for-whats-next/",
+  "status": "opened",
+  "topics": [
+   "Woj Way",
+   "TRICK",
+   "parenting"
+  ],
+  "summary": "An early pandemic column on keeping children engaged once schools closed and classes moved to Zoom.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0203",
+  "link_failed": false
+ },
+ {
+  "date": "2020-04-27",
+  "relation": "by",
+  "type": "Activity",
+  "title": "#safehands",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921154324/https://www.wojway.com/challenge/safe-hands/",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A student activity: make a video persuading people to wash their hands properly during the pandemic.",
+  "note": "Subscribers only. Only the title and description in the archived copy were read.",
+  "archive": "",
+  "id": "WOJ-0202",
+  "link_failed": false
+ },
+ {
+  "date": "2020-04-20",
+  "relation": "by",
+  "type": "Site",
+  "title": "About",
+  "venue": "Woj Way (wojway.com)",
+  "url": "https://web.archive.org/web/20200921164116/https://www.wojway.com/about/",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "The About page of her 2020 parenting and education site, stating its mission of preparing children for a changing world.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0201",
   "link_failed": false
  },
  {
@@ -1194,7 +1807,7 @@
   "summary": "Wide-ranging interview, including managing kids and screens.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0174",
+  "id": "WOJ-0200",
   "link_failed": false
  },
  {
@@ -1212,7 +1825,7 @@
   "summary": "Announced session moderated by Michael Kleba. The event was cancelled days before it was due to open.",
   "note": "Did not take place as scheduled: SXSW EDU, set for March 9 to 12, 2020, was cancelled over coronavirus concerns. Announcement read through an archived copy.",
   "archive": "https://web.archive.org/web/20260610214756/https://sxswedu.com/news/2019/featured-speakers-jessica-lahey-christopher-emdin-esther-wojcicki-more-announced/",
-  "id": "WOJ-0173",
+  "id": "WOJ-0199",
   "link_failed": true
  },
  {
@@ -1231,7 +1844,24 @@
   "summary": "Speaker page at a digital publishers' summit.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0172",
+  "id": "WOJ-0198",
+  "link_failed": false
+ },
+ {
+  "date": "2020",
+  "relation": "by",
+  "type": "Book",
+  "title": "The Woj Way. Как воспитать успешного человека (UnicornBook edition)",
+  "venue": "Бомбора, UnicornBook series, translated by Р. Каримов, ISBN 978-5-04-113780-9",
+  "url": "https://www.labirint.ru/books/764002/",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A smaller-format Russian reissue.",
+  "note": "Sources differ on the year: Labirint gives 2020 and the publisher's page gives 2021.",
+  "archive": "",
+  "id": "WOJ-0197",
   "link_failed": false
  },
  {
@@ -1250,7 +1880,7 @@
   "summary": "Recognition with a bio under her Tract and Paly roles.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0171",
+  "id": "WOJ-0196",
   "link_failed": false
  },
  {
@@ -1268,7 +1898,7 @@
   "summary": "Report on her talk at Gideon Hausner Jewish Day School.",
   "note": "Reclassified: this was filed as an interview, but it is a report on a talk.",
   "archive": "",
-  "id": "WOJ-0170",
+  "id": "WOJ-0195",
   "link_failed": false
  },
  {
@@ -1286,7 +1916,7 @@
   "summary": "Conference video with a transcript, on parenting and her three daughters.",
   "note": "Link replaced: the earlier one pointed to an unofficial mirror. The date is when WIRED released the video.",
   "archive": "",
-  "id": "WOJ-0169",
+  "id": "WOJ-0194",
   "link_failed": false
  },
  {
@@ -1305,7 +1935,7 @@
   "summary": "Keynote covering pressures on parents, global trends in anxiety and adverse childhood experiences.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0168",
+  "id": "WOJ-0193",
   "link_failed": false
  },
  {
@@ -1322,7 +1952,7 @@
   "summary": "Interview listed on Libsyn.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0167",
+  "id": "WOJ-0192",
   "link_failed": false
  },
  {
@@ -1341,7 +1971,7 @@
   "summary": "A 41-minute session at the enlightED education conference.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0166",
+  "id": "WOJ-0191",
   "link_failed": false
  },
  {
@@ -1359,7 +1989,7 @@
   "summary": "Spanish-language version of the same session.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0165",
+  "id": "WOJ-0190",
   "link_failed": false
  },
  {
@@ -1377,7 +2007,7 @@
   "summary": "Magazine conversation from the book launch.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0164",
+  "id": "WOJ-0189",
   "link_failed": false
  },
  {
@@ -1395,7 +2025,7 @@
   "summary": "Silicon Valley interview podcast.",
   "note": "Title and date come from Apple Podcasts data. The episode was not heard.",
   "archive": "",
-  "id": "WOJ-0163",
+  "id": "WOJ-0188",
   "link_failed": false
  },
  {
@@ -1414,7 +2044,7 @@
   "summary": "A bookstore conversation with the New York Times technology reporter.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0162",
+  "id": "WOJ-0187",
   "link_failed": false
  },
  {
@@ -1432,7 +2062,7 @@
   "summary": "Interview with a full transcript, covering trust, respect and letting children make big decisions.",
   "note": "Corrected: this was filed under May 2020. The date now comes from the page's metadata.",
   "archive": "",
-  "id": "WOJ-0161",
+  "id": "WOJ-0186",
   "link_failed": false
  },
  {
@@ -1450,7 +2080,7 @@
   "summary": "Q&A format, though the site credits her in the byline.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0160",
+  "id": "WOJ-0185",
   "link_failed": false
  },
  {
@@ -1469,7 +2099,7 @@
   "summary": "A 64-minute public program from the book tour.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0159",
+  "id": "WOJ-0184",
   "link_failed": false
  },
  {
@@ -1487,7 +2117,24 @@
   "summary": "Covers her student-run journalism program alongside the book's values.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0158",
+  "id": "WOJ-0183",
+  "link_failed": false
+ },
+ {
+  "date": "2019-07-04",
+  "relation": "with",
+  "type": "Video",
+  "title": "«The Woj Way»: интервью с Эстер Войжицки",
+  "venue": "Издательство БОМБОРА (her Russian publisher)",
+  "url": "https://www.youtube.com/watch?v=QYX_YDSJ-sc",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Her Russian publisher's interview with her about the book.",
+  "note": "Description read, video not watched.",
+  "archive": "",
+  "id": "WOJ-0182",
   "link_failed": false
  },
  {
@@ -1505,7 +2152,7 @@
   "summary": "New Zealand public radio interview using the nickname in its title.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0157",
+  "id": "WOJ-0181",
   "link_failed": false
  },
  {
@@ -1523,7 +2170,7 @@
   "summary": "Forbes report on her summit interview with Randall Lane.",
   "note": "Read through an archived copy because the site blocked automated access.",
   "archive": "https://web.archive.org/web/20260630164506/https://www.forbes.com/sites/cartercoudriet/2019/06/18/esther-wojcicki-parenting-susan-anne-janet-women-summit/",
-  "id": "WOJ-0156",
+  "id": "WOJ-0180",
   "link_failed": false
  },
  {
@@ -1541,7 +2188,7 @@
   "summary": "Book-launch interview.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0155",
+  "id": "WOJ-0179",
   "link_failed": false
  },
  {
@@ -1560,7 +2207,7 @@
   "summary": "Covers the five principles, and what she would have changed.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0154",
+  "id": "WOJ-0178",
   "link_failed": false
  },
  {
@@ -1578,7 +2225,7 @@
   "summary": "Article built from her Power Lunch interview, on letting children fail.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0153",
+  "id": "WOJ-0177",
   "link_failed": false
  },
  {
@@ -1596,7 +2243,7 @@
   "summary": "A seven-minute television interview from the book launch.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0152",
+  "id": "WOJ-0176",
   "link_failed": false
  },
  {
@@ -1614,7 +2261,7 @@
   "summary": "Short Quartz piece on trust at home, in school and at work.",
   "note": "Headline corrected from the web address. The archived copy holds the introduction only, so the video was not reviewed.",
   "archive": "https://web.archive.org/web/20251016164705/https://qz.com/1622100/esther-wojcicki-professor-and-mother-of-two-tech-ceos-on-why-parents-need-to-trust-their-kids",
-  "id": "WOJ-0151",
+  "id": "WOJ-0175",
   "link_failed": false
  },
  {
@@ -1632,7 +2279,7 @@
   "summary": "Introduction to a members-only video interview with Quartz's editor in chief.",
   "note": "Headline corrected from the web address. The archived copy holds the introduction only, so the video was not reviewed.",
   "archive": "https://web.archive.org/web/20251011014527/https://qz.com/1622157/esther-wojcicki-mother-of-youtube-ceo-and-high-school-teacher-on-how-to-empower-people-and-get-them-to-seize-the-initiative",
-  "id": "WOJ-0150",
+  "id": "WOJ-0174",
   "link_failed": false
  },
  {
@@ -1650,7 +2297,24 @@
   "summary": "Short Quartz piece on learning from mistakes, tied to her book.",
   "note": "Headline corrected from the web address. The archived copy holds the introduction only, so the video was not reviewed.",
   "archive": "https://web.archive.org/web/20251015162357/https://qz.com/1622224/esther-wojcicki-mother-of-two-silicon-valley-leaders-on-why-parents-shouldnt-punish-failure",
-  "id": "WOJ-0149",
+  "id": "WOJ-0173",
+  "link_failed": false
+ },
+ {
+  "date": "2019-05-24",
+  "relation": "by",
+  "type": "Book",
+  "title": "The Woj Way. Как воспитать успешного человека",
+  "venue": "Бомбора (Eksmo), Психологический бестселлер series, ISBN 978-5-04-101592-3",
+  "url": "https://eksmo.ru/book/kak-vyrastit-uspeshnogo-cheloveka-ITD956886/",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "The Russian hardcover of How to Raise Successful People, which puts The Woj Way in its main title.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0172",
   "link_failed": false
  },
  {
@@ -1667,7 +2331,7 @@
   "summary": "Written conversation about her book and TRICK.",
   "note": "Reclassified: this was filed as a podcast, but the page presents a written conversation.",
   "archive": "",
-  "id": "WOJ-0148",
+  "id": "WOJ-0171",
   "link_failed": false
  },
  {
@@ -1685,7 +2349,7 @@
   "summary": "Long-form tech-press interview from the book launch.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0147",
+  "id": "WOJ-0170",
   "link_failed": false
  },
  {
@@ -1703,7 +2367,7 @@
   "summary": "Contributor piece adapted from her book, and the first in her CNBC series.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0146",
+  "id": "WOJ-0169",
   "link_failed": false
  },
  {
@@ -1721,7 +2385,7 @@
   "summary": "Interview on a sales and storytelling show.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0145",
+  "id": "WOJ-0168",
   "link_failed": false
  },
  {
@@ -1739,7 +2403,7 @@
   "summary": "A review by NextLesson founder Dion Lim, posted on her own account. Reposted in July 2020.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0144",
+  "id": "WOJ-0167",
   "link_failed": false
  },
  {
@@ -1758,7 +2422,7 @@
   "summary": "The book that introduced TRICK to a mass audience: Trust, Respect, Independence, Collaboration, Kindness. Sources give 24 or 31 translated editions.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0143",
+  "id": "WOJ-0166",
   "link_failed": false
  },
  {
@@ -1776,7 +2440,7 @@
   "summary": "Her life and book, presented by Jenni Murray.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0142",
+  "id": "WOJ-0165",
   "link_failed": false
  },
  {
@@ -1795,14 +2459,14 @@
   "summary": "Personal essay on growing up the child of Russian Jewish immigrants, and what she chose not to repeat as a parent.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0141",
+  "id": "WOJ-0164",
   "link_failed": false
  },
  {
   "date": "2019-05",
   "relation": "by",
   "type": "Book",
-  "title": "How to Raise Successful People (UK and Commonwealth edition)",
+  "title": "How to Raise Successful People: The Woj Way (UK and Commonwealth edition)",
   "venue": "Hutchinson / Penguin",
   "url": "https://www.penguin.com.au/books/how-to-raise-successful-people-9781786331274",
   "status": "listed",
@@ -1813,7 +2477,7 @@
   "summary": "International edition. Wikipedia cites a Hutchinson printing under the variant title How to Raise Successful Children, ISBN 9781786331267.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0140",
+  "id": "WOJ-0163",
   "link_failed": true
  },
  {
@@ -1831,7 +2495,7 @@
   "summary": "Long interview about raising her three daughters.",
   "note": "Paywalled: only the opening could be read.",
   "archive": "",
-  "id": "WOJ-0139",
+  "id": "WOJ-0162",
   "link_failed": false
  },
  {
@@ -1849,7 +2513,7 @@
   "summary": "The Sunday Times tech correspondent on the crisis in parenting, her upbringing and TRICK.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0138",
+  "id": "WOJ-0161",
   "link_failed": false
  },
  {
@@ -1868,7 +2532,7 @@
   "summary": "Book excerpt laying out her five values, with early lessons in independence such as sending young daughters on errands alone.",
   "note": "Corrected: this was filed under May 2019. The page shows April 26, 2019.",
   "archive": "",
-  "id": "WOJ-0137",
+  "id": "WOJ-0160",
   "link_failed": false
  },
  {
@@ -1886,7 +2550,7 @@
   "summary": "TIME's project on high-achieving families, listed on her site.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0136",
+  "id": "WOJ-0159",
   "link_failed": true
  },
  {
@@ -1904,7 +2568,7 @@
   "summary": "The governor visits her class.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0135",
+  "id": "WOJ-0158",
   "link_failed": false
  },
  {
@@ -1923,7 +2587,7 @@
   "summary": "Argues for teaching journalism skills in grades 10 to 12.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0134",
+  "id": "WOJ-0157",
   "link_failed": false
  },
  {
@@ -1941,7 +2605,7 @@
   "summary": "Her one piece for TED's written platform. The page shows no date, so the year is inferred from the book's release.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0133",
+  "id": "WOJ-0156",
   "link_failed": false
  },
  {
@@ -1959,7 +2623,7 @@
   "summary": "Trade review of the book.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0132",
+  "id": "WOJ-0155",
   "link_failed": false
  },
  {
@@ -1977,7 +2641,7 @@
   "summary": "A four-page academic book review by Desi Cheshmedzhieva-Stoycheva.",
   "note": "Only the listing could be read. The review itself sits behind a sign-up.",
   "archive": "",
-  "id": "WOJ-0131",
+  "id": "WOJ-0154",
   "link_failed": false
  },
  {
@@ -1995,7 +2659,313 @@
   "summary": "Interview on communication, collaboration, critical thinking and creativity, with BBVA and El País.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0130",
+  "id": "WOJ-0153",
+  "link_failed": false
+ },
+ {
+  "date": "2018-11-05",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The Woj Way: The moment that defined the Breakthrough Prize was Anne Wojcicki",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-the-moment-that-defined-the-breakthrough-prize-was-anne-wojcicki-1664916d4596",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Links Anne Wojcicki's moment at the 2018 Breakthrough Prize to the family's values.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0152",
+  "link_failed": false
+ },
+ {
+  "date": "2018-10-09",
+  "relation": "about",
+  "type": "Repost",
+  "title": "A Conversation with Esther Wojcicki on ‘Moonshots in Education’ at Design Tech High School at Oracle",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-a-conversation-with-esther-wojcicki-on-moonshots-in-education-730a71046518",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "An introduction to her book Moonshots in Education with an embedded conversation at Design Tech High School.",
+  "note": "Reposted on Medium. The web address uses the-woj-way, but the phrase does not appear in the text.",
+  "archive": "",
+  "id": "WOJ-0151",
+  "link_failed": false
+ },
+ {
+  "date": "2018-10-04",
+  "relation": "with",
+  "type": "Video",
+  "title": "Lisa Brennan-Jobs describes The Woj Way",
+  "venue": "Freedom Cheteni (Research.University) on YouTube",
+  "url": "https://www.youtube.com/watch?v=6r7q_KJmLNs",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Brennan-Jobs, a former student, recalls how Wojcicki's class embodied the five TRICK values.",
+  "note": "Description read, video not watched.",
+  "archive": "",
+  "id": "WOJ-0150",
+  "link_failed": false
+ },
+ {
+  "date": "2018-10-04",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Lisa Brennan-Jobs Memoir: Her conversation with her mentor Esther Wojcicki (Part 1)",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/lisa-brennan-jobs-memoir-her-conversation-with-her-mentor-esther-wojcicki-par-c4639d8cbfbd",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Brennan-Jobs describes the Woj Way and being in her class.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0149",
+  "link_failed": false
+ },
+ {
+  "date": "2018-10-03",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The WASC incubator accreditation process a Moonshot in Education",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/the-wasc-incubator-accreditation-process-a-moonshot-in-education-32ec7fbbaa5b",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "On how schools the author calls Woj Way schools, such as 42 and Make School, could seek WASC accreditation.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0148",
+  "link_failed": false
+ },
+ {
+  "date": "2018-10-02",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Moonshot Innovation Diploma (Moonshot ID): Make School with Woj",
+  "venue": "Moonshots in Education (Medium), Freedom Cheteni",
+  "url": "https://medium.com/moonshots-in-education/moonshot-innovation-diploma-moonshot-id-make-school-with-woj-f10f4dbb7dc9",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Describes a diploma under a section on the Woj Way Framework, with Make School as the example.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0147",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-26",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The Woj Way: Youth and the Future of Learning (From STEAM to STEAMM)",
+  "venue": "LinkedIn, Freedom Cheteni",
+  "url": "https://www.linkedin.com/pulse/woj-way-youth-future-learning-from-steam-steamm-cheteni-designership",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Argues from her ideas that media belongs alongside STEAM, and that employers should measure TRICK skills.",
+  "note": "Self-published on LinkedIn by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0146",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-26",
+  "relation": "about",
+  "type": "Repost",
+  "title": "The Woj Way: Alibaba’s Jack Ma to retire to focus on Moonshots in Education",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-alibabas-jack-ma-to-retire-to-focus-on-moonshots-in-education-8abc1581792f",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A news report on Ma's retirement to focus on education, with the moonshots framing added.",
+  "note": "Reposted on Medium by Freedom Cheteni with The Woj Way added to the title. Originally published by The Washington Post on September 8, 2018.",
+  "archive": "",
+  "id": "WOJ-0145",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-24",
+  "relation": "about",
+  "type": "Essay",
+  "title": "How to Raise Successful People: Bill Gates moves away from decades long testing framework in favor of the moonshots framework",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-gates-moves-away-from-decades-long-policy-and-adopts-the-moonshots-framework-in-5fae5e03ab3c",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Reads a change in Gates Foundation strategy as a move toward the Woj Way, and sets out the framework's elements.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked. It says it first appeared on gettingsmart.com; the link between Gates and the framework is the author's reading.",
+  "archive": "",
+  "id": "WOJ-0144",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-21",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The Woj Way & The Future of Education: How Changes in the Way We Learn Will Change the Way We Work — 42",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-the-future-of-education-how-changes-in-the-way-we-learn-will-change-the-way-we-work-73795d525973",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "An account of a future of education event at 42, where she was a keynote speaker.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0143",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-17",
+  "relation": "about",
+  "type": "Repost",
+  "title": "The Woj Way: Tech Celebs Join Esther Wojcicki as New Media Center Opens at Palo Alto High",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-tech-celebs-join-esther-wojcicki-as-new-media-center-opens-at-palo-alto-high-23d2c940a347",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Nellie Bowles's report on the opening of the Paly Media Arts Center.",
+  "note": "Reposted on Medium by Freedom Cheteni with The Woj Way added to the title. Originally published by Recode on October 20, 2014.",
+  "archive": "",
+  "id": "WOJ-0142",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-17",
+  "relation": "about",
+  "type": "Repost",
+  "title": "The Woj Way: Kara Swisher teaches J-School UC Berkeley students how to report on Silicon Valley",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-kara-swisher-teaches-j-school-uc-berkeley-students-how-to-report-on-silicon-valley-a5db5f5d2ff6",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "On Swisher's visit under Berkeley's Wojcicki Lectureship Series.",
+  "note": "Reposted on Medium by Freedom Cheteni with The Woj Way added to the title. Originally published by UC Berkeley News on February 28, 2018.",
+  "archive": "",
+  "id": "WOJ-0141",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-17",
+  "relation": "with",
+  "type": "Repost",
+  "title": "The Woj Way: Esther Wojcicki interviews Maye Musk on a tale of Moonshot Moms",
+  "venue": "Moonshots in Education (Medium)",
+  "url": "https://medium.com/moonshots-in-education/the-woj-way-esther-wojcicki-interviews-maye-musk-on-a-tale-of-moonshot-moms-b880dcd023e9",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Her interview with Maye Musk on age, career and raising children.",
+  "note": "Reposted on Medium by Freedom Cheteni with The Woj Way added to the title. Originally published by Harper's Bazaar on April 18, 2018.",
+  "archive": "",
+  "id": "WOJ-0140",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-13",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The Woj Way: Yixue Education Squirrel AI Founder Joins World-Leading Experts at Global Summit to Highlight AI’s Impact on the Future of Chinese Education.",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-yixue-education-squirrel-ai-founder-joins-world-leading-experts-at-global-summit-to-3b9eda0d722c",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "On Squirrel AI's founder joining a global summit about AI in Chinese education, under the Woj Way label.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked. She is not its main subject.",
+  "archive": "",
+  "id": "WOJ-0139",
+  "link_failed": false
+ },
+ {
+  "date": "2018-09-07",
+  "relation": "about",
+  "type": "Repost",
+  "title": "The Woj Way: Not the apple of his eye, Steve Jobs’ daughter recalls a complicated man",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/the-woj-way-not-the-apple-of-his-eye-steve-jobs-daughter-recalls-a-complicated-man-554a1fcba4b7",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A newspaper piece on Lisa Brennan-Jobs's memoir, under the Woj Way label.",
+  "note": "Reposted on Medium by Freedom Cheteni with The Woj Way added to the title. Originally published by The Sydney Morning Herald on September 7, 2018.",
+  "archive": "",
+  "id": "WOJ-0138",
+  "link_failed": false
+ },
+ {
+  "date": "2018-08-31",
+  "relation": "about",
+  "type": "Site",
+  "title": "Moonshots in Education: The Woj Way",
+  "venue": "Designership",
+  "url": "https://web.archive.org/web/20180831/http://moonshots.designership.org/",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A Moonshots portal with sections for teachers, students and administrators. The title is the one used by a Medium post linking to it; the page itself is headed Moonshots.",
+  "note": "",
+  "archive": "",
+  "id": "WOJ-0137",
+  "link_failed": false
+ },
+ {
+  "date": "2018-08-31",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Feeding your Moonshot Transcripts",
+  "venue": "Moonshots in Education (Medium), Alfonso De los Ríos",
+  "url": "https://medium.com/moonshots-in-education/feeding-your-moonshot-transcripts-8567c8b90ee9",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A short note on how mastery transcripts connect to the online university at thewojway.com.",
+  "note": "Self-published on Medium by Alfonso De los Ríos, who lists Moonshots in Education in his profile. Its claims were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0136",
+  "link_failed": false
+ },
+ {
+  "date": "2018-08-23",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The Woj Way: Moonshots Mastery Transcript",
+  "venue": "Medium, Alfonso De los Ríos",
+  "url": "https://alfonso-dlr.medium.com/the-woj-way-moonshots-mastery-transcript-160ec9c29dd4",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Sets out a mastery transcript built on TRICK and casts her as a major education reformer.",
+  "note": "Self-published on Medium by Alfonso De los Ríos, who lists Moonshots in Education in his profile. Its claims were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0135",
   "link_failed": false
  },
  {
@@ -2013,7 +2983,7 @@
   "summary": "Cited by Wikipedia for her mentorship of Lisa Brennan-Jobs.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0129",
+  "id": "WOJ-0134",
   "link_failed": false
  },
  {
@@ -2032,7 +3002,58 @@
   "summary": "A nine-minute interview from Brazil.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0128",
+  "id": "WOJ-0133",
+  "link_failed": false
+ },
+ {
+  "date": "2018-08-11",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Woj back to school: Reward students for “taking time to learn.”",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/woj-back-to-school-reward-students-for-taking-time-to-learn-honored-org-5279ceb63256",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A portrait of her teaching, with a photo from a Woj Way education reform conference at Stanford.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked. It also carries text from honored.org.",
+  "archive": "",
+  "id": "WOJ-0132",
+  "link_failed": false
+ },
+ {
+  "date": "2018-07-12",
+  "relation": "about",
+  "type": "Site",
+  "title": "The Woj Way - Online University",
+  "venue": "thewojway.com",
+  "url": "https://web.archive.org/web/20180712/https://thewojway.com/",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "An online university site for the Moonshots mastery transcript. Medium posts from 2018 describe it.",
+  "note": "Only the title survives in the archived copy; its content loaded by script.",
+  "archive": "",
+  "id": "WOJ-0131",
+  "link_failed": false
+ },
+ {
+  "date": "2018-07-12",
+  "relation": "about",
+  "type": "Essay",
+  "title": "The Dr. Woj Way: Moonshots in Education Design",
+  "venue": "Medium series, Freedom Cheteni",
+  "url": "https://medium.com/series/the-dr-woj-way-moonshots-in-education-design-4bd92d685a42",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A multi-part series on the framework: trust as its starting point, TRICK, and schools said to use it.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0130",
   "link_failed": false
  },
  {
@@ -2050,7 +3071,7 @@
   "summary": "Listed on her book site.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0127",
+  "id": "WOJ-0129",
   "link_failed": false
  },
  {
@@ -2068,6 +3089,40 @@
   ],
   "summary": "A one-minute clip from Brazil on how her connection to Google began.",
   "note": "",
+  "archive": "",
+  "id": "WOJ-0128",
+  "link_failed": false
+ },
+ {
+  "date": "2018-07-03",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Jibo: The first social robot in an autonomous classroom founded by Freedom Cheteni at The Research University (X)",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@inventXR/jibo-the-first-social-robot-in-an-autonomous-classroom-the-woj-way-17f5f5288876",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Describes a Woj Way moonshots class using the Jibo robot, and traces her early work with classroom computers.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
+  "archive": "",
+  "id": "WOJ-0127",
+  "link_failed": false
+ },
+ {
+  "date": "2018-06-26",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Moonshots with Freedom Cheteni: 42 the world’s first self-driving classroom and school",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@inventXR/moonshots-with-woj-42-the-worlds-first-self-driving-classroom-and-school-489016ce4b7",
+  "status": "opened",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "Asks what a moonshot classroom is and presents the coding school 42 as an example of the Woj Way.",
+  "note": "Self-published on Medium by Freedom Cheteni, who worked with Moonshots in Education. Its claims about adoption and results are the author's own and were not independently checked.",
   "archive": "",
   "id": "WOJ-0126",
   "link_failed": false
@@ -4375,6 +5430,23 @@
  {
   "date": "",
   "relation": "about",
+  "type": "Essay",
+  "title": "The Woj Way: un paso a la educación del futuro",
+  "venue": "Medium, Alfonso De los Ríos",
+  "url": "https://medium.com/@alfonso_13762/the-woj-way-un-paso-a-la-educaci%C3%B3n-del-futuro-c9a7945ad1b5",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A Spanish-language post on the Woj Way as a step toward the education of the future.",
+  "note": "Linked from another post in this list. Medium returned errors on every attempt on 2026-11-04, so the page was not opened. The title is taken from the web address.",
+  "archive": "",
+  "id": "WOJ-0305",
+  "link_failed": false
+ },
+ {
+  "date": "",
+  "relation": "about",
   "type": "News",
   "title": "Newest Advisor: Renaissance Woman Esther Wojcicki",
   "venue": "BrainPOP Educators",
@@ -4387,8 +5459,25 @@
   "summary": "Announces her advisory role.",
   "note": "Still unverified: the link now opens a general BrainPOP page and no archived copy was found. The title and post come from a search result only.",
   "archive": "",
-  "id": "WOJ-0244",
+  "id": "WOJ-0304",
   "link_failed": true
+ },
+ {
+  "date": "",
+  "relation": "about",
+  "type": "Essay",
+  "title": "Moonshots with Woj: Virtual Reality School",
+  "venue": "Medium, Freedom Cheteni",
+  "url": "https://medium.com/@freedomcheteni/moonshots-with-woj-virtual-reality-school-44a3df8aade5",
+  "status": "listed",
+  "topics": [
+   "Woj Way"
+  ],
+  "summary": "A post on teaching courses in virtual reality under the Moonshots banner.",
+  "note": "Linked from another post in this list. Medium returned errors on every attempt on 2026-11-04, so the page was not opened. The title is taken from the web address.",
+  "archive": "",
+  "id": "WOJ-0303",
+  "link_failed": false
  },
  {
   "date": "",
@@ -4405,7 +5494,7 @@
   "summary": "Festival listing for a film portrait of her. The page shows no year or screening date.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0243",
+  "id": "WOJ-0302",
   "link_failed": false
  },
  {
@@ -4423,7 +5512,7 @@
   "summary": "Speaker page for the 12th NIS conference, listing a plenary on the Woj Way and this masterclass, both on November 12.",
   "note": "The live page is gone. Read through an archived copy, in Russian. It gives no year.",
   "archive": "https://web.archive.org/web/20230321205946/https://conf.nis.edu.kz/nis-conference/xii-conference/speakers/esther-wojcicki/",
-  "id": "WOJ-0242",
+  "id": "WOJ-0301",
   "link_failed": true
  },
  {
@@ -4442,7 +5531,7 @@
   "summary": "On independence, kindness and how schools nurture creativity. The page shows July 7 with no year.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0241",
+  "id": "WOJ-0300",
   "link_failed": false
  },
  {
@@ -4461,7 +5550,7 @@
   "summary": "Speaker page for the anniversary symposium. The page gives no session title.",
   "note": "The live page is gone. Read through an archived copy. It gives no year.",
   "archive": "https://web.archive.org/web/20260512090637/https://symposium.org/speaker/50-st-gallen-symposium/william-stampfli-15",
-  "id": "WOJ-0240",
+  "id": "WOJ-0299",
   "link_failed": true
  },
  {
@@ -4480,7 +5569,7 @@
   "summary": "Traces her route from journalist to teacher, and her work on Tract.",
   "note": "",
   "archive": "",
-  "id": "WOJ-0239",
+  "id": "WOJ-0298",
   "link_failed": false
  }
 ]

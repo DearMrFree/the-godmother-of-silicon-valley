@@ -7,6 +7,7 @@ An independent research archive of work by, with and about Esther Wojcicki. It i
 - `corpus/mentions.json`, `corpus/mentions.csv`: separate database of pages that name her, with MEN IDs.
 - `corpus/build_mentions.py`: filters checked pages into the mentions database. `corpus/harvest/` holds the scripts and the check results.
 - `corpus/entries_manual.py`: hand-compiled records. Add new records here.
+- `corpus/entries_wojway.py`: records focused on The Woj Way, with notes on who published each.
 - `corpus/build_corpus.py`: merges records and HuffPost columns.
 - `site/build_site.py`: rebuilds the site from the corpus.
 

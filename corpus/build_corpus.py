@@ -5,6 +5,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ns = {}
 exec(open(os.path.join(HERE, "entries_manual.py"), encoding="utf8").read(), ns)
 E = ns["E"]
+exec(open(os.path.join(HERE, "entries_wojway.py"), encoding="utf8").read(), ns)
 hp = json.load(open(os.path.join(HERE, "huffpost_raw.json"), encoding="utf8"))
 # id: (date, topics, summary). Summaries are written for this archive from each column's title and standfirst.
 S = {
@@ -103,7 +104,7 @@ assert not pending, pending
 missing = [u for u in V if not any(e["url"] == u for e in E)]
 assert not missing, missing
 for e in E:
-    e["note"] = ""; e["archive"] = ""
+    e["note"] = e.get("note", ""); e["archive"] = ""
     if e["status"] == "search":
         change = {k: v for k, v in V[e["url"]].items() if v is not None}
         e["status"] = "opened"
